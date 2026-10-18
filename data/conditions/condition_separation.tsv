@@ -1,0 +1,29 @@
+subcategory	axis	n_pairs_tested	n_pairs_separating	n_pairs_untestable	min_p	min_p_confound_free	verdict
+after_contact	contact_stage	14	12	0	0.00010	0.00010	SEPARATES
+antagonist_animal	antagonist_kingdom	3	3	1	0.00020		SEPARATES
+antagonist_bacterium	antagonist_kingdom	2	2	1	0.00010		SEPARATES
+antagonist_fungus	antagonist_kingdom	10	7	0	0.00010	0.00720	SEPARATES
+antagonist_oomycete	antagonist_kingdom	9	6	0	0.00010	0.00720	SEPARATES
+at_contact	contact_stage	6	6	0	0.00010	0.00150	SEPARATES
+before_contact	contact_stage	14	11	0	0.00010	0.00010	SEPARATES
+carbon_chitin	carbon_class	3	3	0	0.00010	0.02580	SEPARATES
+carbon_lignocellulose	carbon_class	9	9	0	0.00010	0.00020	SEPARATES
+carbon_simple_sugar	carbon_class	7	7	0	0.00010	0.00130	SEPARATES
+carbon_soluble_inducer	carbon_class	4	4	0	0.00010	0.00010	SEPARATES
+carbon_starvation	carbon_class	9	9	0	0.00010	0.00020	SEPARATES
+challenge_confrontation	antagonist_mode	3	3	0	0.00010		SEPARATES
+challenge_inanimate	antagonist_mode	2	2	0	0.00010		SEPARATES
+challenge_volatile	antagonist_mode	3	3	0	0.00010		SEPARATES
+injury_early	injury_time	2	2	0	0.00010	0.00010	SEPARATES
+injury_late	injury_time	2	2	0	0.00010	0.00010	SEPARATES
+light_blue	light_regime	7	7	0	0.00010	0.00010	SEPARATES
+light_blue_pulse	light_regime	3	3	0	0.00010	0.00010	SEPARATES
+light_darkness	light_regime	9	9	0	0.00010	0.00010	SEPARATES
+light_far_red	light_regime	4	3	0	0.00050	0.00840	SEPARATES
+light_red	light_regime	4	3	0	0.00070	0.01040	SEPARATES
+light_white	light_regime	2	2	0	0.00010	0.00010	SEPARATES
+metal_exposure	other_stressor	3	3	0	0.00060	0.01870	SEPARATES
+nitrogen_source	other_stressor	5	4	0	0.00010		SEPARATES
+sexual_development	other_stressor	3	3	0	0.00010		SEPARATES
+stress_oxidative	other_stressor	1	1	0	0.00010		SEPARATES
+xenobiotic	other_stressor	5	4	0	0.00020		SEPARATES

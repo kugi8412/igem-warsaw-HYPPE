@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyppe"
+version = "1.0.0"
+description = "HYPPE: a hyperbolic cone-ladder foundation model of fungal promoters, trained on Trichoderma expression data"
+requires-python = ">=3.11"
+dependencies = [
+    # The versions every number in this repository was produced with, not
+    # lower bounds. A +cu130 wheel reported cuda_available=False against
+    # driver 12070 on the cluster used here and pip did not replace it,
+    # because the version string is identical; check torch.cuda.is_available()
+    # before trusting a training run.
+    "torch==2.10.0",
+    "numpy==1.26.4",
+    "pandas==2.2.3",
+    "scipy==1.15.3",
+    "scikit-learn==1.7.0",
+    "PyYAML==6.0.2",
+    "matplotlib==3.10.1",
+    "tqdm==4.67.3",
+    "biopython==1.85",
+]
+
+[project.optional-dependencies]
+# Only needed to REBUILD the text-embedding caches, never to train or evaluate:
+# the embeddings ship as .npz under the data root.
+text = ["transformers==5.10.2"]
+dev = ["pytest>=7.0", "ruff>=0.5"]
+
+[project.scripts]
+hyppe-train = "hyppe.training.loop:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 88
+# Notebooks are excluded on purpose. Ruff lints .ipynb by default now, and
+# exploratory cells legitimately import halfway down and put two statements
+# on a line; linting them reports style, never a defect.
+exclude = ["_work", "runs", "_poza_repo", "*.ipynb"]
+
+[tool.ruff.lint]
+# Errors and undefined names, not style. Ruff's defaults now include the
+# pyupgrade set, which reports about 4800 findings here: the code formats
+# with % throughout and annotates in the pre-3.9 style, so those rules would
+# rewrite several thousand lines without changing behaviour. A check that
+# returns 5960 findings is a check nobody reads, so the selection is the
+# subset where a finding means something is wrong.
+select = ["E4", "E7", "E9", "F", "W", "I"]
+
+# `l` is a level index and `I` an identity matrix in the geometry and ladder
+# code, which is what those letters conventionally mean there.
+ignore = ["E741"]
+
+# Not selected, and the reason is worth recording rather than rediscovering.
+# B023 (closure over a loop variable) fires 19 times, all on closures that
+# are called inside the same iteration: the optimiser step closures in
+# species.py and quantizer.py, and the scoring callbacks. Rewriting them to
+# bind defaults would touch validated numerics to silence a warning that
+# does not apply.

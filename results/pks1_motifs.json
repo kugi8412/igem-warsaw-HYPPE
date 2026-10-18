@@ -1,0 +1,120 @@
+{
+ "target": "pks1",
+ "length": 800,
+ "draws": 2000,
+ "motifs": {
+  "CRE1": {
+   "consensus": "SYGGRG",
+   "regulator": "CRE1 / CreA",
+   "role": "carbon catabolite repression; functional sites are usually CLOSE PAIRS",
+   "tier": 1,
+   "n_observed": 2,
+   "null_mean": 2.4265,
+   "null_sd": 1.5061864924371084,
+   "z": -0.28316546599079834,
+   "p_empirical": 0.7136431784107946,
+   "max_in_50bp": 1,
+   "positions": [
+    388,
+    559
+   ]
+  },
+  "CCAAT": {
+   "consensus": "CCAAT",
+   "regulator": "Hap2/3/5 complex",
+   "role": "general promoter element, constitutively bound in T. reesei",
+   "tier": 1,
+   "n_observed": 0,
+   "null_mean": 1.801,
+   "null_sd": 1.3055263306421667,
+   "z": -1.3795202423179913,
+   "p_empirical": 1.0,
+   "max_in_50bp": 0,
+   "positions": []
+  },
+  "XYR1": {
+   "consensus": "GGCTAA",
+   "regulator": "XYR1",
+   "role": "cellulase/xylanase activator; no published reason to sit at a PKS",
+   "tier": 2,
+   "n_observed": 0,
+   "null_mean": 0.393,
+   "null_sd": 0.6209275320035341,
+   "z": -0.6329241010330384,
+   "p_empirical": 1.0,
+   "max_in_50bp": 0,
+   "positions": []
+  },
+  "XYR1w": {
+   "consensus": "GGCWWW",
+   "regulator": "XYR1, relaxed",
+   "role": "the GGC(A/T)3 variant from the same work",
+   "tier": 2,
+   "n_observed": 3,
+   "null_mean": 3.399,
+   "null_sd": 1.7455082354431903,
+   "z": -0.22858671869783107,
+   "p_empirical": 0.6781609195402298,
+   "max_in_50bp": 1,
+   "positions": [
+    71,
+    203,
+    427
+   ]
+  },
+  "LRE": {
+   "consensus": "CGATB",
+   "regulator": "BLR1/BLR2 complex",
+   "role": "light element; the mapped region held FIVE copies in ~50 bp",
+   "tier": 1,
+   "n_observed": 7,
+   "null_mean": 4.9205,
+   "null_sd": 2.148064186657373,
+   "z": 0.9680809413967904,
+   "p_empirical": 0.21889055472263869,
+   "max_in_50bp": 2,
+   "positions": [
+    81,
+    276,
+    279,
+    402,
+    496,
+    588,
+    739
+   ]
+  },
+  "WCC": {
+   "consensus": "GATCGA",
+   "regulator": "white-collar complex",
+   "role": "Neurospora WCC consensus; NOT shown in Trichoderma",
+   "tier": 3,
+   "n_observed": 1,
+   "null_mean": 0.3915,
+   "null_sd": 0.6536266135952544,
+   "z": 0.9309596447625705,
+   "p_empirical": 0.31334332833583206,
+   "max_in_50bp": 1,
+   "positions": [
+    276
+   ]
+  },
+  "GATC": {
+   "consensus": "GATC",
+   "regulator": "GATA-type repeat core",
+   "role": "the repeat unit of Neurospora light-response elements",
+   "tier": 3,
+   "n_observed": 4,
+   "null_mean": 3.2865,
+   "null_sd": 1.6481558633818585,
+   "z": 0.4329080858505493,
+   "p_empirical": 0.42978510744627685,
+   "max_in_50bp": 1,
+   "positions": [
+    58,
+    276,
+    497,
+    609
+   ]
+  }
+ }
+}

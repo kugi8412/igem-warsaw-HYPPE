@@ -1,0 +1,23 @@
+{
+ "checkpoint": "/home/jakub/HYPPE/runs/hyppe-foundational_fundational.pt",
+ "n_rows_scored": 4583,
+ "uwaga": "bez warunkowania (jak score_checkpoint), czyli re\u017cim dopasowany informacyjnie do ridge'a",
+ "odczyt_mu": {
+  "within_row_pcc": 0.0857557669190329,
+  "within_row_scc": 0.02582821604244847,
+  "within_row_rows": 4583.0,
+  "within_row_cells": 15609.0,
+  "within_row_pred_sd": 0.1432861817917521,
+  "within_row_target_sd": 0.669303177032888,
+  "within_fraction": 0.08094566163555313
+ },
+ "odczyt_centroidy": {
+  "within_row_pcc": 0.17762670587900745,
+  "within_row_scc": 0.0644597992098576,
+  "within_row_rows": 4583.0,
+  "within_row_cells": 15609.0,
+  "within_row_pred_sd": 0.08528784682863486,
+  "within_row_target_sd": 0.669303177032888,
+  "within_fraction": 0.08094566163555313
+ }
+}

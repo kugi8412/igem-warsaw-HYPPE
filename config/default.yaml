@@ -1,0 +1,410 @@
+# HYPPE, the configuration the delivered foundation model was trained with.
+# Running `hyppe-train --config config/default.yaml` reproduces that model.
+# Only the five data paths below are environment-specific; everything else is
+# the architecture and the schedule, and changing any of it produces a
+# different model that would report the same headline metric names.
+
+
+name: hyppe
+source: config/default.yaml
+
+data:
+  # Promoter sequences, the expression matrix in orthogroup scope
+  sequences_path: data/final_datasets/sequences/sequences.tsv.gz
+  combat_path: data/final_datasets/og_scope/anchor3_log2.tsv.gz
+  rank_path: data/final_datasets/og_scope/rank.tsv.gz
+  samples_path: data/samples_metadata.tsv
+
+  # Precomputed embedding caches. The sentence-LM and DNA-LM models are needed
+  text_embedding_path: data/experiment_text_emb_kurowany.npz
+  sample_text_path: data/sample_text_emb_dekor.npz
+  flank_embedding_path: cache/dna_lm_flanks/embeddings.npy
+
+  # 800 bp immediately 5' of the start codon. Position p = L is the base
+  # before ATG. Alphabet ACGT; N enters as 0.25 in all four channels.
+  sequence_length: 800
+  alphabet: ACGT
+  n_value: 0.25
+  max_n_frac: 0.05
+
+  # Promoters are NOT reverse-complement invariant.
+  # Adjust it if ypu want to train on data RC-complementary like enhancers.
+  random_rc: false
+  rc_tta: false
+  canonicalise_strand: false
+
+  # The label is the per-(orthogroup, genome, category)
+  target: mu_sigma
+  target_per_category: true
+  use_rank: false
+  mask_from_combat: true
+  min_obs_for_sigma: 2
+  min_gap_rank: 0.004
+  sample_weight: sqrt_n_obs_per_og
+
+  # Splits are by orthogroup, never by row
+  split_by: orthogroup
+  split_seed: 7898
+  val_fraction: 0.1
+  test_fraction: 0.1
+  allow_leaky_split: false
+
+  batch_size: 64
+  num_workers: 4
+
+# HYPPE model
+model:
+  channels: [192, 160, 128, 96, 64]
+  strides: [2, 2, 2, 2, 2]          # 800 -> 25 / 50 / 100 / 200 / 400
+  stem_kernel: 5
+  n_res_blocks: 3
+  res_kernel: 7
+  pre_dilations: [1]
+  level_blocks: [0, 1, 1, 1, 1]
+  level_dilations: [1, 2, 4, 8]
+  level_kernel: 5
+  level_gate0: [0.1, 0.9, 0.9, 0.9, 0.9]
+  skip_gate0: 0.3
+  dropout_kind: spatial
+  position_channel: true
+
+  # Global paths on the coarsest map.
+  band_attention: true
+  band_width: 128
+  context_kernel: 15
+
+  # Motif occupancy: the frozen MEME bank (data/motifs.meme, 252 profiles, both strands)
+  occupancy_channels: 0
+  occupancy_bottleneck: 64
+  occupancy_gate: true
+  occupancy_gate_init: 2.0
+  motifs:
+    bank_path: ''
+    keep_names: []
+    drop_names: []
+    strict_names: true
+    min_bits: 0.0
+    max_width: 0
+
+  # The cone ladder. Level 0 quantises POSITION as a point on the
+  # hyperboloid; levels 1-4 quantise REFINEMENT as a tangent vector on an FSQ grid.
+  l0_codes: 128
+  l0_dim: 16
+  l0_max_radius: 8.0
+  l0_commit_measure: exact
+  l0_lift_norm: none
+  l0_lift_squash: 3.0
+  fsq_bits: [9, 6, 3, 3]            # -> 729 / 81 / 9 / 9 cells per position
+  fsq_gain: 0.7
+  fsq_entropy_weight: 0.01          # the ONLY live entropy knob
+  fsq_rate_weight: 0.0
+  fsq_cyfry_czynne: []
+  ladder_aperture: [0.542, 0.666, 0.869, 1.13]
+  ladder_step_radius: 0.15
+
+  # Codebook maintenance
+  vq_ema_decay: 0.99
+  vq_frechet: true
+  vq_dead_restart: true
+  vq_learnable: false
+
+  # The decoder sees codes and nothing else
+  decoder_sees_codes_only: true
+  allow_continuous_decoder: false
+  triangular_levels: [0]
+
+  # Read-out and sharpening modules on the latent.
+  attention_readout: true
+  readout_dim: 64
+  readout_queries: 8
+  readout_levels: [0, 1, 2]
+  bands_l0: true
+  bands_l0_p: 8
+  sharpening: true
+  sharpen_dim: 24
+  sharpen_bands: 4
+  sharpen_levels: [1, 2, 3, 4]
+  drab_pred: true
+  drab_pred_okno: 5
+  drab_pred_ukryte: 32
+  drab_pred_waga: 0.1
+
+
+conditioning:
+  genome:
+    enabled: true
+    dim: 32
+    source: tree20                  # the 20-leaf in-house NJ tree
+    dropout: 0.0
+    ablate: none
+  experiment_text:
+    enabled: true
+    dim: 768
+    source: ''
+    dropout: 0.2
+    ablate: none
+  gene_context:                     # DNA-LM embeddings of both flanks
+    enabled: true
+    dim: 768
+    source: ''
+    dropout: 0.25
+    ablate: none
+  categories:
+    enabled: true
+    dim: 7
+    source: multi_hot
+    dropout: 0.0
+    ablate: none
+  gene:
+    enabled: true
+    dim: 44
+    source: orthology
+    dropout: 0.3
+    ablate: none
+
+  categories_list:
+    - control
+    - carbon source
+    - biotic antagonism
+    - light response
+    - plant association
+    - mechanical injury
+    - other
+
+  # The embedding row of a strain is its index in this list
+
+  species: [B10, F7, I1237, IMI206040, MMS1295, N1508, P1, P3041, P3080,
+            P3116, asperelloides, asperellum, citrinoviride, guizhouense,
+            harzianum, longibrachiatum, reesei, velutinum, virens, viride]
+  species_dropout: 0.15
+
+  # Strain vectors are points on the hyperboloid, pulled toward the tree's
+  # patristic distances by a RELATIVE error.
+  genome_tree_prior: 0.1
+  genome_prior_denom_floor: 0.005
+  genome_prior_free_collapsed: false
+  genome_tree_prior_epochs: 0
+  genome_reproject: true
+
+  orthology_path: data/final_datasets/orthology/og_table_combined.tsv
+  gene_identity_buckets: 4096
+  gene_identity_dim: 0
+  gene_use_text: false
+  gene_drop_numeric: 0.15
+  gene_drop_text: 0.15
+
+  cone: true
+  cone_aperture: 0.25
+  cone_dim: 8
+  cone_channels: [text, gene]
+  cone_roots: true
+  cone_zero_init: true
+  cone_diag_every: 50
+
+heads:
+  pooling:
+    stats: [mean, sd, anchor]       # per level -> 5 x 16 x 3 = 240 dims
+    anchor_frac: 0.125
+
+  # Strength regression under beta-NLL (Seitzer et al., ICLR 2022).
+  absolute:
+    enabled: true
+    weight: 1.0
+    hidden: 256
+    depth: 2
+    dropout: 0.25
+    context_mode: concat
+    context_center: true
+    beta: 0.5
+    beta_mu: 1.0
+    lv_min: -8.0
+    lv_max: 4.0
+    clamp_mode: hard
+    predict_sigma: true
+    sigma_weight: 0.2
+    sigma_floor: 0.001
+    tie_sigma_to_var: false
+    kara_amplitudy: 5.0
+
+  # Bradley-Terry ranking without margin
+  pairwise:
+    enabled: true
+    weight: 1.0
+    hidden: 256
+    depth: 2
+    dropout: 0.2
+    context_mode: concat
+    context_center: true
+    temperature: 1.0
+    nonprom_weight: 0.25
+    nonpromoter_pairs: false
+    ortholog_fraction: 0.1
+    ortholog_block: 4
+    pair_term_levels: [0, 1, 2]
+    pair_term_weight: 0.5
+    pair_term_hidden: 64
+    pair_term_dropout: 0.1
+
+  # Real promoters against composition-matched negatives.
+  discriminator:
+    enabled: true
+    weight: 0.5
+    hidden: 256
+    depth: 2
+    dropout: 0.2
+    context_mode: concat
+    context_center: true
+    pos_weight: null
+    label_smoothing: 0.0
+    negative_kinds: [dinucleotide_shuffle, chimera, coding, flank, reverse]
+    negative_mix:
+      dinucleotide_shuffle: 0.375
+      chimera: 0.375
+      coding: 0.1
+      flank: 0.1
+
+  # The condition is fused into the pooled latent by FiLM (Perez et al., 2018)
+  fusion:
+    enabled: true
+    d_channel: 64
+    d_bottleneck: 16
+    hidden: 128
+    dropout: 0.1
+    film_center: ema
+    film_range: 0.35
+    init_scale: 0.1
+    gate_floor: 0.05
+    floor_weight: 0.0
+    active_floor: 0.0
+    beta_w_skali_latentu: true
+    xattn_glowy: 0
+    xattn_lokalny: 4
+
+  # A pair is formed INSIDE one (genome, category)
+  head_withhold: [species, text]
+
+  category:
+    enabled: false
+    hidden: 128
+    dropout: 0.1
+    weight: 0.1
+    use_columns: true
+    only_dropped_text: true
+
+  decomposition:
+    enabled: false
+    hidden: 128
+    depth: 2
+    dropout: 0.1
+    context_mode: concat
+    context_center: true
+    targets: [gene, strain, cond]
+    weight_gene: 0.3
+    weight_strain: 0.15
+    weight_cond: 0.15
+    huber_delta: 0.0
+    ablate: roll
+
+# TRAINING
+training:
+  epochs: 16
+  seed: 42
+  lr: 0.0003
+  lr_schedule: cosine
+  lr_warmup_frac: 0.03
+  weight_decay: 0.05
+  grad_clip: 1.0
+  amp: true
+  riemannian: true
+  manifold_patterns: [codebook, manifold, hyperbolic, proto]
+  no_decay_patterns: [codebook, manifold, hyperbolic, proto, gate, bias, norm,
+                      species_emb, species_proj, mu_layer]
+  method: normprior
+  task_weights: {absolute: 1.0, pairwise: 1.0, discriminator: 1.0}
+  normprior:
+    enabled: true
+    players: [absolute, pairwise, discriminator]
+    priors: {absolute: 1.5, pairwise: 1.0, discriminator: 0.6}
+    shared_scope: encoder
+    refresh_every: 1
+    eps: 1.0e-12
+  nash:
+    enabled: true
+    players: [absolute, pairwise, discriminator]
+    n_iter: 20
+    min_weight: 0.125
+    max_weight: 8.0
+    alpha_ema: 0.9
+    clip_threshold: 0.2
+    nzb_threshold: 0.05
+    recompute_every: 1
+    shared_scope: encoder
+    allow_saturated_players: false
+    bypass: false
+
+  # Reconstruction is scored over four masked views of the latent, then held
+  # at a target by a GECO controller rather than a fixed weight
+  mask_views: [full, column, degree_0, prefix_k]
+  view_weights: {full: 0.4, column: 0.25, degree_0: 0.2, prefix_k: 0.15}
+  recon_weight: 0.15                # supplies lam_init only; see below
+  commitment_weight: 0.25
+  entropy_weight: 0.0               # dead key, kept so the report can say so
+  recon_constraint:
+    enabled: true
+    observable: rec_full
+    target: 0.98
+    lam_init: 0.15
+    lam_lr: 0.01
+    lam_min: 0.02
+    lam_max: 2.0
+    ema: 0.98
+    warmup_steps: 20
+    saturation_limit: 0.5
+    acknowledge_fixed_weight: false
+  prefix_constraint:
+    enabled: true
+    observable: rec_prefix_0
+    target: 0.3379
+    lam_init: 0.15
+    lam_lr: 0.01
+    lam_min: 0.001
+    lam_max: 2.0
+    ema: 0.98
+    warmup_steps: 20
+    saturation_limit: 0.5
+    acknowledge_fixed_weight: false
+  occ_gate_constraint:
+    enabled: false
+    observable: occ_gate_rzadkosc
+    target: 0.7746
+    cel_kanalow: 64.0
+    lam_init: 1.0
+    lam_lr: 0.01
+    lam_min: 0.001
+    lam_max: 8.0
+    ema: 0.98
+    warmup_steps: 1050
+    saturation_limit: 0.5
+    acknowledge_fixed_weight: false
+
+  # Selection the best model
+  select_on: pcc_cell_readout
+  select_recon_weight: 0.0
+  swa_start_epoch: 2
+  swa_window: 3
+  eval_seeds: 3
+  recon_admit: 0.93
+  spy_selection:
+    enabled: true
+    strain: P1
+    orthogroup: OG0000996
+    panel_path: data/splits/SPY_SET_V6_SZEROKI.fasta
+    require_anchor_order: true
+    require_anchor_promoters: true
+    require_edit_resolution: false
+
+  # Divergence guards
+  closure_tol: 1.0e-06
+  loss_max: 1000.0
+  enc_radius_max: 6.0
+  enc_clip_frac_max: 0.01

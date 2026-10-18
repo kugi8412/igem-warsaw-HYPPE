@@ -1,0 +1,16 @@
+# Scratch and caches. NOTE what is deliberately NOT here: `data/` and
+# `weights/` are tracked. An earlier version ignored both wholesale, which
+# silently excluded the frozen motif bank, the split assignment and the
+# delivered checkpoints -- the three things a result cannot be reproduced
+# without. Large external inputs are reached through HYPPE_DATA_ROOT and
+# never live in the tree, so a blanket ignore buys nothing.
+_work/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Per-run output. `results/` is tracked (it is the evidence behind the docs);
+# `runs/` is where training writes its own checkpoints and logs.
+runs/

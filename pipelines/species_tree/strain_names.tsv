@@ -1,0 +1,28 @@
+# Maps a proteome to a strain in the model's registry.
+#
+# Column 1 is an NCBI accession or the name of a proteome file without its
+# .faa extension. Column 2 is the strain name, which must match one of the
+# twenty in config/default.yaml for check_tree.py --registry to pass.
+#
+# Public genomes are named automatically from NCBI's assembly report, so they
+# only belong here when that name is wrong or when you want a different one.
+# In-house genomes have no accession and can only be named here.
+#
+# Columns are separated by a single tab.
+#
+# source	strain
+
+# In-house genomes. Put the proteomes in proteomes_local/ and give each one
+# the strain name it carries in the expression tables.
+# P1_proteins	P1
+# B10_proteins	B10
+# F7_proteins	F7
+# I1237_proteins	I1237
+# MMS1295_proteins	MMS1295
+# N1508_proteins	N1508
+# P3041_proteins	P3041
+# P3080_proteins	P3080
+# P3116_proteins	P3116
+
+# Public genomes, only if the automatic name needs overriding.
+# GCA_000171015.2	IMI206040

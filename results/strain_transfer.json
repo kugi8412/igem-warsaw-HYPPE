@@ -1,0 +1,199 @@
+{
+  "kmer": 4,
+  "split": "/home/jakub/HYPPE/data/splits/SPLIT_V6.tsv",
+  "split_column": "H_kmer90",
+  "per_strain": [
+    {
+      "strain_index": 0,
+      "val_rows": 262,
+      "train_rows": 8457,
+      "pcc_seen": 0.4748350539213568,
+      "pcc_held_out": 0.37944269103307215,
+      "pcc_sequence_only": 0.36961172916733886,
+      "transfer_cost": 0.09539236288828462,
+      "onehot_value_when_seen": 0.10522332475401791,
+      "onehot_value_when_unseen": 0.00983096186573329
+    },
+    {
+      "strain_index": 1,
+      "val_rows": 264,
+      "train_rows": 8503,
+      "pcc_seen": 0.4040362626237193,
+      "pcc_held_out": 0.3781814550188898,
+      "pcc_sequence_only": 0.3756066154185277,
+      "transfer_cost": 0.0258548076048295,
+      "onehot_value_when_seen": 0.02842964720519159,
+      "onehot_value_when_unseen": 0.002574839600362089
+    },
+    {
+      "strain_index": 2,
+      "val_rows": 267,
+      "train_rows": 8659,
+      "pcc_seen": 0.5514563097571862,
+      "pcc_held_out": 0.5480577091862641,
+      "pcc_sequence_only": 0.5379909222225354,
+      "transfer_cost": 0.0033986005709221168,
+      "onehot_value_when_seen": 0.013465387534650763,
+      "onehot_value_when_unseen": 0.010066786963728647
+    },
+    {
+      "strain_index": 3,
+      "val_rows": 260,
+      "train_rows": 8351,
+      "pcc_seen": 0.5120029995958838,
+      "pcc_held_out": 0.2831085666117103,
+      "pcc_sequence_only": 0.48114127684382985,
+      "transfer_cost": 0.2288944329841735,
+      "onehot_value_when_seen": 0.030861722752053955,
+      "onehot_value_when_unseen": -0.19803271023211955
+    },
+    {
+      "strain_index": 4,
+      "val_rows": 263,
+      "train_rows": 8552,
+      "pcc_seen": 0.5453495269240094,
+      "pcc_held_out": 0.5457935875977091,
+      "pcc_sequence_only": 0.536226408573782,
+      "transfer_cost": -0.000444060673699731,
+      "onehot_value_when_seen": 0.009123118350227388,
+      "onehot_value_when_unseen": 0.00956717902392712
+    },
+    {
+      "strain_index": 5,
+      "val_rows": 265,
+      "train_rows": 8544,
+      "pcc_seen": 0.5483234409079484,
+      "pcc_held_out": 0.5463259311971987,
+      "pcc_sequence_only": 0.5401139747914797,
+      "transfer_cost": 0.0019975097107496342,
+      "onehot_value_when_seen": 0.008209466116468667,
+      "onehot_value_when_unseen": 0.006211956405719032
+    },
+    {
+      "strain_index": 6,
+      "val_rows": 299,
+      "train_rows": 10167,
+      "pcc_seen": 0.4226773433609711,
+      "pcc_held_out": 0.40571532773657876,
+      "pcc_sequence_only": 0.3911509338676431,
+      "transfer_cost": 0.016962015624392368,
+      "onehot_value_when_seen": 0.03152640949332802,
+      "onehot_value_when_unseen": 0.014564393868935654
+    },
+    {
+      "strain_index": 7,
+      "val_rows": 267,
+      "train_rows": 8649,
+      "pcc_seen": 0.5416367688361475,
+      "pcc_held_out": 0.5384631542994548,
+      "pcc_sequence_only": 0.5290069428181482,
+      "transfer_cost": 0.003173614536692737,
+      "onehot_value_when_seen": 0.012629826017999335,
+      "onehot_value_when_unseen": 0.009456211481306598
+    },
+    {
+      "strain_index": 8,
+      "val_rows": 267,
+      "train_rows": 8626,
+      "pcc_seen": 0.5144576407327627,
+      "pcc_held_out": 0.5115059612928811,
+      "pcc_sequence_only": 0.49826479997499407,
+      "transfer_cost": 0.002951679439881616,
+      "onehot_value_when_seen": 0.016192840757768612,
+      "onehot_value_when_unseen": 0.013241161317886996
+    },
+    {
+      "strain_index": 9,
+      "val_rows": 269,
+      "train_rows": 8638,
+      "pcc_seen": 0.533011038806185,
+      "pcc_held_out": 0.5278578950604113,
+      "pcc_sequence_only": 0.5203188019345483,
+      "transfer_cost": 0.005153143745773692,
+      "onehot_value_when_seen": 0.012692236871636675,
+      "onehot_value_when_unseen": 0.007539093125862983
+    },
+    {
+      "strain_index": 10,
+      "val_rows": 229,
+      "train_rows": 7517,
+      "pcc_seen": 0.5393757867815232,
+      "pcc_held_out": 0.3912439167800603,
+      "pcc_sequence_only": 0.43393150065737335,
+      "transfer_cost": 0.14813187000146288,
+      "onehot_value_when_seen": 0.10544428612414986,
+      "onehot_value_when_unseen": -0.04268758387731303
+    },
+    {
+      "strain_index": 11,
+      "val_rows": 217,
+      "train_rows": 7335,
+      "pcc_seen": 0.45495434328971074,
+      "pcc_held_out": 0.43682036225611187,
+      "pcc_sequence_only": 0.41376457665107164,
+      "transfer_cost": 0.018133981033598867,
+      "onehot_value_when_seen": 0.0411897666386391,
+      "onehot_value_when_unseen": 0.023055785605040235
+    },
+    {
+      "strain_index": 12,
+      "val_rows": 200,
+      "train_rows": 6513,
+      "pcc_seen": 0.508192250994784,
+      "pcc_held_out": 0.4870014418064042,
+      "pcc_sequence_only": 0.4534869403237363,
+      "transfer_cost": 0.021190809188379844,
+      "onehot_value_when_seen": 0.054705310671047724,
+      "onehot_value_when_unseen": 0.03351450148266788
+    },
+    {
+      "strain_index": 13,
+      "val_rows": 210,
+      "train_rows": 7117,
+      "pcc_seen": 0.5013782897621999,
+      "pcc_held_out": 0.4748635405878441,
+      "pcc_sequence_only": 0.47771682867916626,
+      "transfer_cost": 0.02651474917435581,
+      "onehot_value_when_seen": 0.02366146108303363,
+      "onehot_value_when_unseen": -0.0028532880913221814
+    },
+    {
+      "strain_index": 14,
+      "val_rows": 217,
+      "train_rows": 7333,
+      "pcc_seen": 0.5492576481315421,
+      "pcc_held_out": 0.5345365387258765,
+      "pcc_sequence_only": 0.5377938734137234,
+      "transfer_cost": 0.014721109405665622,
+      "onehot_value_when_seen": 0.011463774717818676,
+      "onehot_value_when_unseen": -0.0032573346878469467
+    },
+    {
+      "strain_index": 17,
+      "val_rows": 212,
+      "train_rows": 7182,
+      "pcc_seen": 0.5217801926838589,
+      "pcc_held_out": 0.520410786403145,
+      "pcc_sequence_only": 0.5142983149608278,
+      "transfer_cost": 0.001369406280713914,
+      "onehot_value_when_seen": 0.007481877723031105,
+      "onehot_value_when_unseen": 0.006112471442317191
+    },
+    {
+      "strain_index": 18,
+      "val_rows": 219,
+      "train_rows": 7210,
+      "pcc_seen": 0.47651597114185046,
+      "pcc_held_out": 0.4398402901956745,
+      "pcc_sequence_only": 0.4530678279648031,
+      "transfer_cost": 0.03667568094617596,
+      "onehot_value_when_seen": 0.023448143177047354,
+      "onehot_value_when_unseen": -0.013227537769128606
+    }
+  ],
+  "mean_pcc_seen": 0.5058376981324494,
+  "mean_pcc_held_out": 0.46759818563466393,
+  "mean_pcc_sequence_only": 0.474323074603737,
+  "mean_onehot_value_seen": 0.03151462352871237,
+  "mean_onehot_value_unseen": -0.0067248889690730935
+}

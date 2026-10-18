@@ -1,0 +1,11 @@
+Input_file	Dataset	Complete	Single	Duplicated	Fragmented	Missing	n_markers
+GCA_000988865.1_protein.faa	hypocreales_odb10	98.0	97.8	0.3	0.7	1.3	4494				
+GCA_052084505.1_protein.faa	hypocreales_odb10	97.3	97.1	0.2	0.5	2.1	4494				
+GCF_020647795.1_protein.faa	hypocreales_odb10	88.1	85.2	2.8	7.5	4.5	4494				
+GCF_001481775.2_protein.faa	hypocreales_odb10	94.5	94.3	0.2	1.2	4.3	4494				
+GCA_000171015.2_protein.faa	hypocreales_odb10	98.0	97.8	0.2	1.1	0.9	4494				
+GCF_000182925.2_protein.faa	hypocreales_odb10	87.5	77.1	10.5	0.7	11.7	4494				
+GCA_002022785.1_protein.faa	hypocreales_odb10	99.0	98.7	0.3	0.5	0.5	4494				
+GCF_000167675.1_protein.faa	hypocreales_odb10	97.2	97.1	0.1	1.1	1.7	4494				
+GCF_000170995.1_protein.faa	hypocreales_odb10	98.9	98.5	0.4	0.7	0.5	4494				
+GCF_000149955.1_protein.faa	hypocreales_odb10	95.4	67.9	27.5	2.1	2.5	4494				

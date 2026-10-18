@@ -1,0 +1,655 @@
+subcategory	n_total	sample	genome	parent_category	matched_term	condition
+after_contact	87	SRX13287641	IMI206040	biotic antagonism	after contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Alternaria alternata after contact; biological replicate 2
+after_contact	87	SRX31994986	longibrachiatum	control	after contact	mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample from MK1 control after contact
+after_contact	87	SRX31995766	B10	control	after contact	Trichoderma atroviride B10 alone (control) interaction with plant after contact;  mycelium from axenic plates with tomato plants; cells grown at 25C for a 14h photoperiod; sample 1
+after_contact	87	SRX31994599	harzianum	control	after contact	sample from M10 control after contact
+after_contact	87	SRX31994600	harzianum	control	after contact	sample from M10 control after contact
+after_contact	87	SRX31994601	harzianum	plant association	after contact	sample from M10-plant interaction after contact
+after_contact	87	SRX31995005	longibrachiatum	plant association	after contact	mycelium from axenic plates with tomato plants (S. lycopersicum cv. San Marzano nano); cells grown at 25C for a 14h photoperiod; sample from MK1-plant interaction after contact
+after_contact	87	SRX13287655	IMI206040	biotic antagonism	after contact	Trichoderma atroviride WT vs Rhizoctonia solani AG2 after contact; biological replicate 1
+after_contact	87	SRX31995723	F7	control	after contact	Trichoderma atroviride P1 alone (control) interaction with plant after contact;  mycelium from axenic plates with tomato plants; cells grown at 25C for a 14h photoperiod; sample 1
+after_contact	87	SRX31995779	B10	control	after contact	Trichoderma atroviride B10 alone (control) interaction with plant after contact;  mycelium from axenic plates with tomato plants; cells grown at 25C for a 14h photoperiod; sample 1
+after_contact	87	SRX31994994	longibrachiatum	biotic antagonism	after contact	mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample from MK1 vs pathogen (Sclerotum rolfsii) after contact
+after_contact	87	SRX31995770	B10	control	after contact	Trichoderma atroviride B10 alone (control) after contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 3
+after_contact	87	SRX9608760	guizhouense	biotic antagonism	after contact	WT strain after contact with Foc4, rep 1
+after_contact	87	SRX13287673	IMI206040	biotic antagonism	after contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG2 after contact; biological replicate 1
+after_contact	87	SRX31995001	longibrachiatum	plant association	after contact	mycelium from axenic plates with tomato plants (S. lycopersicum cv. San Marzano nano); cells grown at 25C for a 14h photoperiod; sample from MK1-plant interaction after contact
+after_contact	87	SRX9608765	guizhouense	biotic antagonism	after contact	Tgsdr1 strain after contact with Foc4, rep 3
+after_contact	87	SRX9608762	guizhouense	biotic antagonism	after contact	WT strain after contact with Foc4, rep 3
+after_contact	87	SRX31994606	harzianum	control	after plant contact	sample from M10 control after plant contact
+after_contact	87	SRX13287635	IMI206040	biotic antagonism	after contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG2 after contact; biological replicate 2
+after_contact	87	SRX31994634	P1	control	after contact	Trichoderma atroviride P1 alone (control) after contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 3
+after_contact	87	SRX31994637	P1	biotic antagonism	after contact	Trichoderma atroviride P1 vs pathogen (Sclerotum rolfsii) after contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 2
+after_contact	87	SRX9608761	guizhouense	biotic antagonism	after contact	WT strain after contact with Foc4, rep 2
+after_contact	87	SRX31994989	longibrachiatum	plant association	after plant contact	mycelium from axenic plates with tomato plants (S. lycopersicum cv. San Marzano nano); cells grown at 25C for a 14h photoperiod; sample from MK1 control after plant contact
+after_contact	87	SRX13287685	IMI206040	biotic antagonism	after contact	Trichoderma atroviride WT vs Rhizoctonia solani AG2 after contact; biological replicate 2
+after_contact	87	SRX31994593	harzianum	biotic antagonism	after contact	sample from M10 vs pathogen (Sclerotum rolfsii) after contact
+after_contact	87	SRX13287667	IMI206040	biotic antagonism	after contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG5 after contact; biological replicate 1
+after_contact	87	SRX13287670	IMI206040	biotic antagonism	after contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Alternaria alternata after contact; biological replicate 1
+after_contact	87	SRX31994598	harzianum	control	after contact	sample from M10 control after contact
+after_contact	87	SRX13287647	IMI206040	biotic antagonism	after contact	Trichoderma atroviride WT vs Rhizoctonia solani AG2 after contact; biological replicate 3
+after_contact	87	SRX31994631	P1	control	after contact	Trichoderma atroviride P1 alone (control) after contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 1
+antagonist_animal	27	SRX8564136	IMI206040	biotic antagonism	fungivor	30 min after fungivory by D. melanogaster larvae, biological replicate 1
+antagonist_animal	27	SRX8564137	IMI206040	biotic antagonism	fungivor	30 min after fungivory by D. melanogaster larvae, biological replicate 2
+antagonist_animal	27	SRX8564138	IMI206040	biotic antagonism	fungivor	30 min after fungivory by D. melanogaster larvae, biological replicate 3
+antagonist_animal	27	SRX8564139	IMI206040	biotic antagonism	fungivor	90 min after fungivory by D. melanogaster larvae, biological replicate 1
+antagonist_animal	27	SRX8564140	IMI206040	biotic antagonism	fungivor	90 min after fungivory by D. melanogaster larvae, biological replicate 2
+antagonist_animal	27	SRX8564141	IMI206040	biotic antagonism	fungivor	90 min after fungivory by D. melanogaster larvae, biological replicate 3
+antagonist_animal	27	SRX8564142	IMI206040	biotic antagonism	fungivor	4h after fungivory by D. melanogaster larvae, biological replicate 1
+antagonist_animal	27	SRX8564143	IMI206040	biotic antagonism	fungivor	4h after fungivory by D. melanogaster larvae, biological replicate 2
+antagonist_animal	27	SRX8564144	IMI206040	biotic antagonism	fungivor	4h after fungivory by D. melanogaster larvae, biological replicate 3
+antagonist_animal	27	SRX8564145	IMI206040	biotic antagonism	fungivor	8h after fungivory by D. melanogaster larvae, biological replicate 1
+antagonist_animal	27	SRX8564146	IMI206040	biotic antagonism	fungivor	8h after fungivory by D. melanogaster larvae, biological replicate 2
+antagonist_animal	27	SRX8564147	IMI206040	biotic antagonism	fungivor	8h after fungivory by D. melanogaster larvae, biological replicate 3
+antagonist_animal	27	SRX8564148	IMI206040	biotic antagonism	fungivor	30 min after fungivory by O. folsomi, biological replicate 1
+antagonist_animal	27	SRX8564149	IMI206040	biotic antagonism	fungivor	30 min after fungivory by O. folsomi, biological replicate 2
+antagonist_animal	27	SRX8564150	IMI206040	biotic antagonism	fungivor	30 min after fungivory by O. folsomi, biological replicate 3
+antagonist_animal	27	SRX8564151	IMI206040	biotic antagonism	fungivor	90 min after fungivory by O. folsomi, biological replicate 1
+antagonist_animal	27	SRX8564152	IMI206040	biotic antagonism	fungivor	90 min after fungivory by O. folsomi, biological replicate 2
+antagonist_animal	27	SRX8564153	IMI206040	biotic antagonism	fungivor	90 min after fungivory by O. folsomi, biological replicate 3
+antagonist_animal	27	SRX8564154	IMI206040	biotic antagonism	fungivor	4h after fungivory by O. folsomi, biological replicate 1
+antagonist_animal	27	SRX8564155	IMI206040	biotic antagonism	fungivor	4h after fungivory by O. folsomi, biological replicate 2
+antagonist_animal	27	SRX8564156	IMI206040	biotic antagonism	fungivor	4h after fungivory by O. folsomi, biological replicate 3
+antagonist_animal	27	SRX8564157	IMI206040	biotic antagonism	fungivor	8h after fungivory by O. folsomi, biological replicate 1
+antagonist_animal	27	SRX8564158	IMI206040	biotic antagonism	fungivor	8h after fungivory by O. folsomi, biological replicate 2
+antagonist_animal	27	SRX8564159	IMI206040	biotic antagonism	fungivor	8h after fungivory by O. folsomi, biological replicate 3
+antagonist_animal	27	SRX28999378	harzianum	biotic antagonism	bursaphelenchus	with Bursaphelenchus xylophilus, rep 1
+antagonist_animal	27	SRX28999379	harzianum	biotic antagonism	bursaphelenchus	with Bursaphelenchus xylophilus, rep 2
+antagonist_animal	27	SRX28999380	harzianum	biotic antagonism	bursaphelenchus	with Bursaphelenchus xylophilus, rep 3
+antagonist_bacterium	6	SRX27153818	guizhouense	biotic antagonism	bacillus	with Bacillus velezensis and Fusarium, rep 1
+antagonist_bacterium	6	SRX27153819	guizhouense	biotic antagonism	bacillus	with Bacillus velezensis and Fusarium, rep 2
+antagonist_bacterium	6	SRX27153820	guizhouense	biotic antagonism	bacillus	with Bacillus velezensis and Fusarium, rep 3
+antagonist_bacterium	6	SRX31761243	harzianum	biotic antagonism	velezensis	co-culture with B. velezensis
+antagonist_bacterium	6	SRX31761244	harzianum	biotic antagonism	velezensis	co-culture with B. velezensis
+antagonist_bacterium	6	SRX31761245	harzianum	biotic antagonism	velezensis	co-culture with B. velezensis
+antagonist_fungus	242	SRX13287637	IMI206040	biotic antagonism	rhizoctonia	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 2
+antagonist_fungus	242	ERX16325271	MMS1295	biotic antagonism	rhizoctonia	strain MMS1295; replicate b; with pathogene Rhizoctonia solani; timepoint 3
+antagonist_fungus	242	SRX13287669	IMI206040	biotic antagonism	alternaria	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Alternaria alternata at contact; biological replicate 1
+antagonist_fungus	242	ERX16325035	I1237	biotic antagonism	alternaria	strain I1237; replicate b; with pathogene Alternaria brassicicola; timepoint 2
+antagonist_fungus	242	SRX13287689	IMI206040	biotic antagonism	alternaria	Trichoderma atroviride WT vs Alternaria alternata after contact; biological replicate 3
+antagonist_fungus	242	SRX13287675	IMI206040	biotic antagonism	rhizoctonia	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 1
+antagonist_fungus	242	SRX27153814	guizhouense	biotic antagonism	fusarium	Trichoderma withh Fusarium, rep 1
+antagonist_fungus	242	SRX11919499	IMI206040	biotic antagonism	botrytis	Trichoderma atroviride IMI206040 with Botrytis cinerea B05.10, biological replicate 1
+antagonist_fungus	242	SRX19818582	harzianum	biotic antagonism	b. cinerea	Trichoderma harzianum T4 48 h growth in B. cinerea cell wall, rep 3
+antagonist_fungus	242	ERX16325701	N1508	biotic antagonism	rhizoctonia	strain N1508; replicate b; with pathogene Rhizoctonia solani; timepoint 1
+antagonist_fungus	242	SRX8987246	virens	biotic antagonism	fusarium	Trichoderma virens exposed to volatile compounds produced by culture of Fusarium oxysporum 9605
+antagonist_fungus	242	SRX8987249	harzianum	biotic antagonism	fusarium	Trichoderma harzianum exposed to volatile compounds produced by culture of Fusarium oxysporum NRRL26029
+antagonist_fungus	242	SRX22888256	virens	biotic antagonism	fusarium	Trichoderma virens exposed to Fusarium oxysporum NRRL26029 VOCs Replicate 2
+antagonist_fungus	242	SRX27153820	guizhouense	biotic antagonism	fusarium	with Bacillus velezensis and Fusarium, rep 3
+antagonist_fungus	242	SRX13287626	IMI206040	biotic antagonism	rhizoctonia	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG2 after contact; biological replicate 2
+antagonist_fungus	242	SRX13287701	IMI206040	biotic antagonism	rhizoctonia	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG2 after contact; biological replicate 3
+antagonist_fungus	242	SRX13287684	IMI206040	biotic antagonism	rhizoctonia	Trichoderma atroviride WT vs Rhizoctonia solani AG2 at contact; biological replicate 2; biological replicate 2
+antagonist_fungus	242	ERX16324864	I1237	biotic antagonism	alternaria	strain I1237; replicate a; with pathogene Alternaria brassicicola; timepoint 2
+antagonist_fungus	242	SRX8987257	harzianum	biotic antagonism	fusarium	Trichoderma harzianum exposed to volatile compounds produced by culture of Fusarium oxysporum 9605
+antagonist_fungus	242	SRX31995718	F7	biotic antagonism	sclerot	Trichoderma atroviride F7 vs pathogen (Sclerotum rolfsii) after contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 2
+antagonist_fungus	242	ERX16325060	I1237	biotic antagonism	rhizoctonia	strain I1237; replicate b; with pathogene Rhizoctonia solani; timepoint 1
+antagonist_fungus	242	SRX30862416	harzianum	biotic antagonism	schizophyllum	interaction with Schizophyllum commune, sampled from the non-interacting edge, rep 1
+antagonist_fungus	242	ERX16325633	P3041	biotic antagonism	alternaria	strain P3041; replicate a; with pathogene Alternaria brassicicola; timepoint 2
+antagonist_fungus	242	ERX16324893	I1237	biotic antagonism	rhizoctonia	strain I1237; replicate a; with pathogene Rhizoctonia solani; timepoint 2
+antagonist_fungus	242	ERX16324866	I1237	biotic antagonism	alternaria	strain I1237; replicate a; with pathogene Alternaria brassicicola; timepoint 3
+antagonist_fungus	242	ERX16325687	P3041	biotic antagonism	rhizoctonia	strain P3041; replicate a; with pathogene Rhizoctonia solani; timepoint 3
+antagonist_fungus	242	ERX16325291	N1508	biotic antagonism	alternaria	strain N1508; replicate a; with pathogene Alternaria brassicicola; timepoint 1
+antagonist_fungus	242	SRX13287634	IMI206040	biotic antagonism	rhizoctonia	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG2 at contact; biological replicate 2
+antagonist_fungus	242	SRX18783839	virens	biotic antagonism	s. rolfsii	Q strain + S. rolfsii
+antagonist_fungus	242	SRX13287650	IMI206040	biotic antagonism	rhizoctonia	Trichoderma atroviride WT vs Rhizoctonia solani AG5 after contact; biological replicate 3
+antagonist_oomycete	39	ERX16325722	P3080	biotic antagonism	globisporangium	strain P3080; replicate b; with pathogene Globisporangium ultimum; timepoint 3
+antagonist_oomycete	39	ERX16325724	P3041	biotic antagonism	globisporangium	strain P3041; replicate b; with pathogene Globisporangium ultimum; timepoint 2
+antagonist_oomycete	39	ERX15108177	harzianum	biotic antagonism	oomycete	xyr 1 mutant with inactivated mycelial powder from oomycete Pythium myriotylum, rep 2
+antagonist_oomycete	39	ERX16324877	I1237	biotic antagonism	globisporangium	strain I1237; replicate a; with pathogene Globisporangium ultimum; timepoint 3
+antagonist_oomycete	39	ERX16325713	P3080	biotic antagonism	globisporangium	strain P3080; replicate b; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16325240	MMS1295	biotic antagonism	globisporangium	strain MMS1295; replicate b; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16325207	MMS1295	biotic antagonism	globisporangium	strain MMS1295; replicate a; with pathogene Globisporangium ultimum; timepoint 3
+antagonist_oomycete	39	ERX15108176	harzianum	biotic antagonism	oomycete	xyr 1 mutant with inactivated mycelial powder from oomycete Pythium myriotylum, rep 3
+antagonist_oomycete	39	ERX16325670	P3080	biotic antagonism	globisporangium	strain P3080; replicate a; with pathogene Globisporangium ultimum; timepoint 3
+antagonist_oomycete	39	ERX16325313	N1508	biotic antagonism	globisporangium	strain N1508; replicate a; with pathogene Globisporangium ultimum; timepoint 2
+antagonist_oomycete	39	ERX16324873	I1237	biotic antagonism	globisporangium	strain I1237; replicate a; with pathogene Globisporangium ultimum; timepoint 2
+antagonist_oomycete	39	ERX15108174	harzianum	biotic antagonism	oomycete	WT with inactivated mycelial powder from oomycete Pythium myriotylum, rep 2
+antagonist_oomycete	39	ERX16325696	N1508	biotic antagonism	globisporangium	strain N1508; replicate b; with pathogene Globisporangium ultimum; timepoint 3
+antagonist_oomycete	39	ERX16325661	P3080	biotic antagonism	globisporangium	strain P3080; replicate a; with pathogene Globisporangium ultimum; timepoint 2
+antagonist_oomycete	39	ERX16325662	P3041	biotic antagonism	globisporangium	strain P3041; replicate a; with pathogene Globisporangium ultimum; timepoint 2
+antagonist_oomycete	39	ERX16325307	N1508	biotic antagonism	globisporangium	strain N1508; replicate a; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16325653	P3080	biotic antagonism	globisporangium	strain P3080; replicate a; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX15108178	harzianum	biotic antagonism	oomycete	xyr 1 mutant with inactivated mycelial powder from oomycete Pythium myriotylum, rep 1
+antagonist_oomycete	39	ERX16325716	P3116	biotic antagonism	globisporangium	strain P3116; replicate b; with pathogene Globisporangium ultimum; timepoint 2
+antagonist_oomycete	39	ERX16325674	P3116	biotic antagonism	globisporangium	strain P3116; replicate a; with pathogene Globisporangium ultimum; timepoint 2
+antagonist_oomycete	39	ERX15108173	harzianum	biotic antagonism	oomycete	WT with inactivated mycelial powder from oomycete Pythium myriotylum, rep 3
+antagonist_oomycete	39	ERX16325651	P3041	biotic antagonism	globisporangium	strain P3041; replicate a; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16325719	P3041	biotic antagonism	globisporangium	strain P3041; replicate b; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16325712	P3116	biotic antagonism	globisporangium	strain P3116; replicate b; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16325245	MMS1295	biotic antagonism	globisporangium	strain MMS1295; replicate b; with pathogene Globisporangium ultimum; timepoint 2
+antagonist_oomycete	39	ERX16325664	P3116	biotic antagonism	globisporangium	strain P3116; replicate a; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16325049	I1237	biotic antagonism	globisporangium	strain I1237; replicate b; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16324869	I1237	biotic antagonism	globisporangium	strain I1237; replicate a; with pathogene Globisporangium ultimum; timepoint 1
+antagonist_oomycete	39	ERX16325248	MMS1295	biotic antagonism	globisporangium	strain MMS1295; replicate b; with pathogene Globisporangium ultimum; timepoint 3
+antagonist_oomycete	39	ERX15108175	harzianum	biotic antagonism	oomycete	WT with inactivated mycelial powder from oomycete Pythium myriotylum, rep 1
+at_contact	33	SRX9608773	guizhouense	biotic antagonism	initial contact	Tgsdr1strain at initial contact with Foc4, rep 1
+at_contact	33	SRX9608759	guizhouense	biotic antagonism	initial contact	Tgsdr1strain at initial contact with Foc4, rep 3
+at_contact	33	SRX13287657	IMI206040	biotic antagonism	at contact	Trichoderma atroviride WT vs Rhizoctonia solani AG5 at contact; biological replicate 1
+at_contact	33	SRX13287660	IMI206040	biotic antagonism	at contact	Trichoderma atroviride WT vs Alternaria alternata at contact; biological replicate 1
+at_contact	33	SRX13287691	IMI206040	biotic antagonism	at contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG2 at contact; biological replicate 3
+at_contact	33	SRX13287649	IMI206040	biotic antagonism	at contact	Trichoderma atroviride WT vs Rhizoctonia solani AG5 at contact; biological replicate 3
+at_contact	33	SRX13287625	IMI206040	biotic antagonism	at contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG2 at contact; biological replicate 2
+at_contact	33	SRX13287694	IMI206040	biotic antagonism	at contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 3
+at_contact	33	SRX13287652	IMI206040	biotic antagonism	at contact	Trichoderma atroviride WT vs Alternaria alternata at contact; biological replicate 3
+at_contact	33	SRX9608772	guizhouense	biotic antagonism	initial contact	WT strain at initial contact with Foc4, rep 3
+at_contact	33	SRX13287637	IMI206040	biotic antagonism	at contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 2
+at_contact	33	SRX13287703	IMI206040	biotic antagonism	at contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 3
+at_contact	33	SRX9608758	guizhouense	biotic antagonism	initial contact	Tgsdr1strain at initial contact with Foc4, rep 2
+at_contact	33	SRX13287631	IMI206040	biotic antagonism	at contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Alternaria alternata at contact; biological replicate 2
+at_contact	33	SRX13287666	IMI206040	biotic antagonism	at contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 1
+at_contact	33	SRX13287675	IMI206040	biotic antagonism	at contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 1
+at_contact	33	SRX9608770	guizhouense	biotic antagonism	initial contact	WT strain at initial contact with Foc4, rep 1
+at_contact	33	SRX13287628	IMI206040	biotic antagonism	at contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 2
+at_contact	33	SRX13287640	IMI206040	biotic antagonism	at contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Alternaria alternata at contact; biological replicate 2
+at_contact	33	SRX13287663	IMI206040	biotic antagonism	at contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG2 at contact; biological replicate 1
+at_contact	33	SRX13287706	IMI206040	biotic antagonism	at contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Alternaria alternata at contact; biological replicate 3
+at_contact	33	SRX13287672	IMI206040	biotic antagonism	at contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG2 at contact; biological replicate 1
+at_contact	33	SRX9608771	guizhouense	biotic antagonism	initial contact	WT strain at initial contact with Foc4, rep 2
+at_contact	33	SRX13287697	IMI206040	biotic antagonism	at contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Alternaria alternata at contact; biological replicate 3
+at_contact	33	SRX13287687	IMI206040	biotic antagonism	at contact	Trichoderma atroviride WT vs Rhizoctonia solani AG5 at contact; biological replicate 2
+at_contact	33	SRX13287634	IMI206040	biotic antagonism	at contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG2 at contact; biological replicate 2
+at_contact	33	SRX13287684	IMI206040	biotic antagonism	at contact	Trichoderma atroviride WT vs Rhizoctonia solani AG2 at contact; biological replicate 2; biological replicate 2
+at_contact	33	SRX13287654	IMI206040	biotic antagonism	at contact	Trichoderma atroviride WT vs Rhizoctonia solani AG2 at contact; biological replicate 1; biological replicate 1
+at_contact	33	SRX13287646	IMI206040	biotic antagonism	at contact	Trichoderma atroviride WT vs Rhizoctonia solani AG2 at contact; biological replicate 3; biological replicate 3
+at_contact	33	SRX13287678	IMI206040	biotic antagonism	at contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Alternaria alternata at contact; biological replicate 1
+before_contact	103	SRX31995767	B10	control	before contact	Trichoderma atroviride B10 alone (control) before contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 3
+before_contact	103	SRX13287662	IMI206040	control	before contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG2 before contact; biological replicate 1
+before_contact	103	SRX31994626	P1	control	before contact	Trichoderma atroviride P1 interaction with plant before contact;  mycelium from axenic plates with tomato plants; cells grown at 25C for a 14h photoperiod; sample 1
+before_contact	103	SRX31994588	harzianum	control	before contact	sample from M10-plant interaction before contact
+before_contact	103	SRX13287696	IMI206040	control	before contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Alternaria alternata before contact; biological replicate 3
+before_contact	103	SRX31995763	B10	control	before contact	Trichoderma atroviride B10 alone (control) before contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 2
+before_contact	103	SRX13287648	IMI206040	control	before contact	Trichoderma atroviride WT vs Rhizoctonia solani AG5 before contact; biological replicate 3
+before_contact	103	SRX31994597	harzianum	control	before contact	sample from M10 vs pathogen (Sclerotum rolfsii) before contact
+before_contact	103	SRX9608768	guizhouense	control	before contact	Tgsdr1 strain before contact with Foc4, rep 2
+before_contact	103	SRX4483130	guizhouense	control	before contact	overexpression nox 1, Before contact in condition of nox1OE vs FOC4, rep 1
+before_contact	103	SRX31995003	longibrachiatum	control	before contact	cells grown at 25C for a 14h photoperiod; sample from MK1 control before contact
+before_contact	103	SRX31994595	harzianum	control	before contact	sample from M10 vs pathogen (Sclerotum rolfsii) before contact
+before_contact	103	SRX17697317	longibrachiatum	control	before contact	Trichoderma before contact with Arabidopsis (control)
+before_contact	103	SRX31994638	P1	control	before contact	Trichoderma atroviride P1 alone (control) before contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 1
+before_contact	103	SRX31994629	P1	control	before contact	Trichoderma atroviride P1 interaction with plant before contact;  mycelium from axenic plates with tomato plants; cells grown at 25C for a 14h photoperiod; sample 3
+before_contact	103	SRX13287699	IMI206040	control	before contact	Trichoderma atroviride ago3 (connected to small RNAs) mutant vs Rhizoctonia solani AG2 before contact; biological replicate 3
+before_contact	103	SRX13287621	IMI206040	control	before contact	Trichoderma atroviride WT vs Alternaria alternata before contact; biological replicate 2
+before_contact	103	SRX31994990	longibrachiatum	control	before contact	mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample from MK1 vs pathogen (Sclerotum rolfsii) before contact
+before_contact	103	SRX9608766	guizhouense	control	before contact	WT strain before contact with Foc4, rep 3
+before_contact	103	SRX31995006	longibrachiatum	control	before contact	mycelium from axenic plates with tomato plants (S. lycopersicum cv. San Marzano nano); cells grown at 25C for a 14h photoperiod; sample from MK1-plant interaction before contact
+before_contact	103	SRX31994591	harzianum	control	before plant contact	sample from M10 control before plant contact
+before_contact	103	SRX31994998	longibrachiatum	control	before plant contact	mycelium from axenic plates with tomato plants (S. lycopersicum cv. San Marzano nano); cells grown at 25C for a 14h photoperiod; sample from MK1 control before plant contact
+before_contact	103	SRX31994639	P1	control	before contact	Trichoderma atroviride P1 alone (control) before contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 2
+before_contact	103	SRX13287668	IMI206040	control	before contact	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Alternaria alternata before contact; biological replicate 1
+before_contact	103	SRX31994590	harzianum	control	before contact	sample from M10-plant interaction before contact
+before_contact	103	SRX31994625	P1	control	before contact	Trichoderma atroviride P1 alone (control) before contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 3
+before_contact	103	SRX31994997	longibrachiatum	control	before plant contact	mycelium from axenic plates with tomato plants (S. lycopersicum cv. San Marzano nano); cells grown at 25C for a 14h photoperiod; sample from MK1 control before plant contact
+before_contact	103	SRX31995776	B10	control	before contact	Trichoderma atroviride B10 alone (control) interaction with plant before contact;  mycelium from axenic plates with tomato plants; cells grown at 25C for a 14h photoperiod; sample 1
+before_contact	103	SRX31995758	B10	control	before contact	Trichoderma atroviride B10 interaction with plant before contact;  mycelium from axenic plates with tomato plants; cells grown at 25C for a 14h photoperiod; sample 3
+before_contact	103	SRX31995772	B10	control	before contact	Trichoderma atroviride B10 vs pathogen (Sclerotum rolfsii) before contact; mycelium on cellophane from axenic plates; cells grown at 25C for a 14h photoperiod; sample 3
+carbon_chitin	6	SRX28437431	harzianum	carbon source	chitin	chitin as carbon source
+carbon_chitin	6	SRX28437432	harzianum	carbon source	chitin	chitin as carbon source
+carbon_chitin	6	SRX28437443	harzianum	carbon source	chitin	chitin as carbon source
+carbon_chitin	6	SRX28437448	harzianum	carbon source	chitin	chitin as carbon source
+carbon_chitin	6	SRX28437449	harzianum	carbon source	chitin	chitin as carbon source
+carbon_chitin	6	SRX28437450	harzianum	carbon source	chitin	chitin as carbon source
+carbon_lignocellulose	196	SRX32008483	reesei	carbon source	wb	deletion xyr1, grown in 1% WB for 4h
+carbon_lignocellulose	196	SRX32008466	reesei	carbon source	xyloglucan	QM6A WT, grown in 1% D-xyloglucan for 8 h
+carbon_lignocellulose	196	SRX11093977	guizhouense	carbon source	xylan	WT, 4h grown in xylan as carbon source, rep 3
+carbon_lignocellulose	196	SRX5882680	reesei	carbon source	sugar cane	sugar cane as carbon source, delta azf1, biological replicate 1
+carbon_lignocellulose	196	SRX32008475	reesei	carbon source	xyloglucan	deletion xyr1, grown in 1% xyloglucan for 8h
+carbon_lignocellulose	196	SRX2964663	reesei	carbon source	sugarcane	tmk1 deletion on sugarcane, rep 3
+carbon_lignocellulose	196	SRX1745066	reesei	carbon source	wheat straw	wheat straw as carbon source, rep A, run 1
+carbon_lignocellulose	196	SRX32008452	reesei	carbon source	sbh	QM6A WT, grown in 1% SBH for 4 h
+carbon_lignocellulose	196	SRX31691716	reesei	carbon source	sugarcane	Delta pkac1 sugarcane bagasse 24h biological replicate 1
+carbon_lignocellulose	196	SRX11093983	guizhouense	carbon source	xylan	WT, 72h grown in xylan as carbon source, rep 2
+carbon_lignocellulose	196	SRX11094039	guizhouense	carbon source	xylan	deletion ace1, 24h grown in xylan as carbon source, rep 3
+carbon_lignocellulose	196	SRX11094021	guizhouense	carbon source	cellulos	deletion xyr1, 72h grown in cellulose as carbon source, rep 3
+carbon_lignocellulose	196	SRX11094020	guizhouense	carbon source	cellulos	deletion xyr1, 72h grown in cellulose as carbon source, rep 2
+carbon_lignocellulose	196	SRX32008453	reesei	carbon source	xylan	QM6A WT, grown in 1% D-xylan for 8 h
+carbon_lignocellulose	196	SRX2265782	reesei	carbon source	sugarcane	grown on Sugarcane Exploded Bagasse, 6h, rep 1
+carbon_lignocellulose	196	SRX32008448	reesei	carbon source	sbh	QM6A WT, grown in 1% SBH for 4 h
+carbon_lignocellulose	196	SRX31691711	reesei	carbon source	sugarcane	QM9414 sugarcane bagasse 24h biological replicate 2, run 2 unpaired
+carbon_lignocellulose	196	SRX11094042	guizhouense	carbon source	xylan	deletion ace1, 72h grown in xylan as carbon source, rep 3
+carbon_lignocellulose	196	SRX32008456	reesei	carbon source	xylan	QM6A WT, grown in 1% D-xylan for 4 h
+carbon_lignocellulose	196	SRX32008467	reesei	carbon source	xyloglucan	QM6A WT, grown in 1% D-xyloglucan for 8 h
+carbon_lignocellulose	196	SRX23023258	harzianum	carbon source	cellulos	xyr1 deletion, cellulose as carbon source, rep 2
+carbon_lignocellulose	196	SRX10463617	reesei	carbon source	avicel	ku70 with Avicel as carbon source, rep 3
+carbon_lignocellulose	196	SRX11094007	guizhouense	carbon source	xylan	deletion xyr1, 24h grown in xylan as carbon source, rep 1
+carbon_lignocellulose	196	SRX11094064	guizhouense	carbon source	xylan	deletion ace2, 72h grown in xylan as carbon source, rep 3
+carbon_lignocellulose	196	SRX10463614	reesei	carbon source	avicel	xur1 with Avicel as carbon source, rep 1
+carbon_lignocellulose	196	SRX32008478	reesei	carbon source	xylan	deletion xyr1, grown in 1% xylan for 8h
+carbon_lignocellulose	196	SRX23023259	harzianum	carbon source	cellulos	xyr1 deletion, cellulose as carbon source, rep 3
+carbon_lignocellulose	196	SRX11094063	guizhouense	carbon source	xylan	deletion ace2, 72h grown in xylan as carbon source, rep 2
+carbon_lignocellulose	196	SRX5882681	reesei	carbon source	sugar cane	sugar cane as carbon source, delta azf1, biological replicate 2
+carbon_lignocellulose	196	SRX11094012	guizhouense	carbon source	xylan	deletion xyr1, 72h grown in xylan as carbon source, rep 3
+carbon_simple_sugar	78	SRX2964658	reesei	carbon source	glyceron	WT on glyceron, rep 1
+carbon_simple_sugar	78	SRX23023251	harzianum	carbon source	fructose	WT, fructose as carbon source, rep 1
+carbon_simple_sugar	78	SRX2964677	reesei	carbon source	glycerol	tmk2 deletion on glycerol, rep 2
+carbon_simple_sugar	78	SRX23794258	reesei	carbon source	glucose	WT, 52 hours of lactose growth and 6h of glucose, rep 2
+carbon_simple_sugar	78	SRX23794266	reesei	carbon source	glucose	WT, 52 hours of lactose growth and 27h of glucose, rep 2
+carbon_simple_sugar	78	SRX5546875	reesei	carbon source	mannitol	WT, % D-mannitol as carbon source, biological replicate 1
+carbon_simple_sugar	78	SRX1822857	reesei	carbon source	glucose	T24h Fed batch Glucose 75%-lactose 25%, rep2
+carbon_simple_sugar	78	SRX2964660	reesei	carbon source	glyceron	WT on glyceron, rep 3
+carbon_simple_sugar	78	SRX23794255	reesei	carbon source	glucose	xyr1 deletion, 52 hours of lactose growth and 6h of glucose, rep 3
+carbon_simple_sugar	78	SRX2964659	reesei	carbon source	glyceron	WT on glyceron, rep 2
+carbon_simple_sugar	78	SRX23794268	reesei	carbon source	glucose	WT, 52 hours of lactose growth and 27h of glucose, rep 4
+carbon_simple_sugar	78	SRX23023247	harzianum	carbon source	fructose	xyr1 deletion, fructose as carbon source, rep 3
+carbon_simple_sugar	78	SRX23794257	reesei	carbon source	glucose	WT, 52 hours of lactose growth and 6h of glucose, rep 1
+carbon_simple_sugar	78	SRX657498	reesei	carbon source	glycerol	kap8 deletion, at time 0, grown on glycerol, rep 3
+carbon_simple_sugar	78	SRX15603508	reesei	carbon source	fructose	4h transfer experiment in which cells were grown in 1xMA + 25 mM D-fructose
+carbon_simple_sugar	78	SRX23023253	harzianum	carbon source	fructose	WT, fructose as carbon source, rep 3
+carbon_simple_sugar	78	SRX20543100	reesei	carbon source	glucose	WT, glucose + DTT, rep2
+carbon_simple_sugar	78	SRX1822865	reesei	carbon source	glucose	T48h Fed batch Glucose 75%-lactose 25%, rep4
+carbon_simple_sugar	78	SRX32008471	reesei	carbon source	d-xylose	QM6A WT, grown in 1% D-xylose for 4 h
+carbon_simple_sugar	78	SRX5546877	reesei	carbon source	mannitol	WT, % D-mannitol as carbon source, biological replicate 3
+carbon_simple_sugar	78	SRX5546872	reesei	carbon source	mannitol	ace 1 mutant, % D-mannitol as carbon source, biological replicate 1
+carbon_simple_sugar	78	SRX23794265	reesei	carbon source	glucose	WT, 52 hours of lactose growth and 27h of glucose, rep 1
+carbon_simple_sugar	78	SRX1822863	reesei	carbon source	glucose	T48h Fed batch Glucose 75%-lactose 25%, rep2
+carbon_simple_sugar	78	SRX32008499	reesei	carbon source	d-xylose	deletion xyr1, grown in 1% D-xylose for 4h
+carbon_simple_sugar	78	SRX23794263	reesei	carbon source	glucose	xyr1 deletion, 52 hours of lactose growth and 27h of glucose, rep 3
+carbon_simple_sugar	78	SRX5546873	reesei	carbon source	mannitol	ace 1 mutant, % D-mannitol as carbon source, biological replicate 2
+carbon_simple_sugar	78	SRX23794253	reesei	carbon source	glucose	xyr1 deletion, 52 hours of lactose growth and 6h of glucose, rep 1
+carbon_simple_sugar	78	SRX1948686	reesei	carbon source	xylose	Trichoderma reesei under fermentation of xylose, rep 2
+carbon_simple_sugar	78	SRX23023260	harzianum	carbon source	fructose	xyr1 deletion, fructose as carbon source, rep 1
+carbon_simple_sugar	78	SRX1822862	reesei	carbon source	glucose	T48h Fed batch Glucose 75%-lactose 25%, rep1
+carbon_soluble_inducer	107	SRX2269336	reesei	carbon source	lactose	WT, T24h Lactose , rep1
+carbon_soluble_inducer	107	SRX23794261	reesei	carbon source	lactose	xyr1 deletion, 52 hours of lactose growth and 27h of glucose, rep 1
+carbon_soluble_inducer	107	SRX28707920	reesei	carbon source	lactose	deletion CEL1B, grown in lactose, rep 2
+carbon_soluble_inducer	107	SRX10340315	reesei	carbon source	lactose	grown in presence of lactose as carbon source, rep 1
+carbon_soluble_inducer	107	SRX398508	reesei	carbon source	sophorose	T. reesei grown in Sophorose, rep 1
+carbon_soluble_inducer	107	SRX657499	reesei	carbon source	sophorose	kap8-retransformant, at time 3h, grown of Sophorose, rep 1
+carbon_soluble_inducer	107	SRX23794264	reesei	carbon source	lactose	xyr1 deletion, 52 hours of lactose growth and 27h of glucose, rep 4
+carbon_soluble_inducer	107	SRX28709843	reesei	carbon source	sophorose	WT in sophorose-rich conditions, rep 1
+carbon_soluble_inducer	107	SRX23794257	reesei	carbon source	lactose	WT, 52 hours of lactose growth and 6h of glucose, rep 1
+carbon_soluble_inducer	107	SRX1822849	reesei	carbon source	lactose	T48h Fed batch Lactose 100%, rep2
+carbon_soluble_inducer	107	SRX2269333	reesei	carbon source	lactose	cellulase negative phenotype, T48h Lactose , rep2
+carbon_soluble_inducer	107	SRX1822856	reesei	carbon source	lactose	T24h Fed batch Glucose 75%-lactose 25%, rep1
+carbon_soluble_inducer	107	SRX657501	reesei	carbon source	sophorose	kap8-retransformant, at time 3h, grown of Sophorose, rep 3
+carbon_soluble_inducer	107	SRX20543104	reesei	carbon source	lactose	WT, lactose + DTT, rep2
+carbon_soluble_inducer	107	SRX1822843	reesei	carbon source	lactose	T24h Fed batch Lactose 100%, rep2
+carbon_soluble_inducer	107	SRX23794268	reesei	carbon source	lactose	WT, 52 hours of lactose growth and 27h of glucose, rep 4
+carbon_soluble_inducer	107	SRX20543102	reesei	carbon source	lactose	WT, lactose, rep2
+carbon_soluble_inducer	107	SRX20543110	reesei	carbon source	lactose	deletion res-2, lactose, rep2
+carbon_soluble_inducer	107	SRX23794256	reesei	carbon source	lactose	xyr1 deletion, 52 hours of lactose growth and 6h of glucose, rep 4
+carbon_soluble_inducer	107	SRX1822851	reesei	carbon source	lactose	T48h Fed batch Lactose 100%, rep4
+carbon_soluble_inducer	107	SRX1822865	reesei	carbon source	lactose	T48h Fed batch Glucose 75%-lactose 25%, rep4
+carbon_soluble_inducer	107	SRX23794265	reesei	carbon source	lactose	WT, 52 hours of lactose growth and 27h of glucose, rep 1
+carbon_soluble_inducer	107	SRX1822844	reesei	carbon source	lactose	T24h Fed batch Lactose 100%, rep3
+carbon_soluble_inducer	107	SRX1822863	reesei	carbon source	lactose	T48h Fed batch Glucose 75%-lactose 25%, rep2
+carbon_soluble_inducer	107	SRX28707922	reesei	carbon source	sophorose	WT in sophorose-rich conditions, rep 3
+carbon_soluble_inducer	107	SRX957188	reesei	carbon source	sophorose	cre1 deletion, grown on Sophorose, rep 1
+carbon_soluble_inducer	107	SRX1822845	reesei	carbon source	lactose	T24h Fed batch Lactose 100%, rep4
+carbon_soluble_inducer	107	SRX957896	reesei	carbon source	sophorose	xyr1 mutant grown on Sophorose as carbon source, rep 3
+carbon_soluble_inducer	107	SRX23794267	reesei	carbon source	lactose	WT, 52 hours of lactose growth and 27h of glucose, rep 3
+carbon_soluble_inducer	107	SRX2269337	reesei	carbon source	lactose	WT, T24h Lactose , rep2
+carbon_starvation	48	SRX23023263	harzianum	carbon source	no carbon source	xyr1 deletion, no carbon source, rep 2
+carbon_starvation	48	SRX32538723	IMI206040	carbon source	without carbon	Trichoderma atroviride WT grown without carbon source, biological replicate 1
+carbon_starvation	48	SRX11094028	guizhouense	carbon source	carbon starv	deletion xyr1, 72h grown in carbon starvation, rep 1
+carbon_starvation	48	SRX25055587	reesei	carbon source	no carbon source	WT, no carbon source, rep 3
+carbon_starvation	48	SRX11094025	guizhouense	carbon source	carbon starv	deletion xyr1, 24h grown in carbon starvation, rep 1
+carbon_starvation	48	SRX11093996	guizhouense	carbon source	carbon starv	WT, 24h grown in carbon starvation, rep 1
+carbon_starvation	48	SRX23023256	harzianum	carbon source	no carbon source	WT, no carbon source, rep 3
+carbon_starvation	48	SRX10463619	reesei	carbon source	no carbon source	ku70 with no carbon source, rep 2
+carbon_starvation	48	SRX11094022	guizhouense	carbon source	carbon starv	deletion xyr1, 4h grown in carbon starvation, rep 1
+carbon_starvation	48	SRX11094000	guizhouense	carbon source	carbon starv	WT, 72h grown in carbon starvation, rep 2
+carbon_starvation	48	SRX25055578	reesei	carbon source	no carbon source	WT, no carbon source, rep 2
+carbon_starvation	48	SRX32538725	IMI206040	carbon source	without carbon	Trichoderma atroviride WT grown without carbon source, biological replicate 3
+carbon_starvation	48	SRX11094029	guizhouense	carbon source	carbon starv	deletion xyr1, 72h grown in carbon starvation, rep 2
+carbon_starvation	48	SRX25055583	reesei	carbon source	no carbon source	overexpression TR_60282, no carbon source, rep 3
+carbon_starvation	48	SRX23023255	harzianum	carbon source	no carbon source	WT, no carbon source, rep 2
+carbon_starvation	48	SRX28437434	harzianum	carbon source	no carbon source	no carbon source
+carbon_starvation	48	SRX25055581	reesei	carbon source	no carbon source	overexpression TR_60282, no carbon source, rep 1
+carbon_starvation	48	SRX11093997	guizhouense	carbon source	carbon starv	WT, 24h grown in carbon starvation, rep 2
+carbon_starvation	48	SRX10463612	reesei	carbon source	no carbon source	vib1 with no carbon source, rep 2
+carbon_starvation	48	SRX306481	reesei	carbon source	no carbon source	no carbon source
+carbon_starvation	48	SRX11094027	guizhouense	carbon source	carbon starv	deletion xyr1, 24h grown in carbon starvation, rep 3
+carbon_starvation	48	SRX28437454	harzianum	carbon source	no carbon source	no carbon source
+carbon_starvation	48	SRX23023264	harzianum	carbon source	no carbon source	xyr1 deletion, no carbon source, rep 3
+carbon_starvation	48	SRX11093999	guizhouense	carbon source	carbon starv	WT, 72h grown in carbon starvation, rep 1
+carbon_starvation	48	SRX10463620	reesei	carbon source	no carbon source	ku70 with no carbon source, rep 3
+carbon_starvation	48	SRX11913992	asperellum	carbon source	without carbon	Trichoderma asperellum grown without carbon source
+carbon_starvation	48	SRX32538724	IMI206040	carbon source	without carbon	Trichoderma atroviride WT grown without carbon source, biological replicate 2
+carbon_starvation	48	SRX11094023	guizhouense	carbon source	carbon starv	deletion xyr1, 4h grown in carbon starvation, rep 2
+carbon_starvation	48	SRX25055593	reesei	carbon source	no carbon source	overexpression XYR1, no carbon source, rep 3
+carbon_starvation	48	SRX10463618	reesei	carbon source	no carbon source	ku70 with no carbon source, rep 1
+challenge_confrontation	263	ERX16325687	P3041	biotic antagonism	s	strain P3041; replicate a; with pathogene Rhizoctonia solani; timepoint 3
+challenge_confrontation	263	ERX16325030	I1237	biotic antagonism	s	strain I1237; replicate b; with pathogene Alternaria brassicicola; timepoint 1
+challenge_confrontation	263	SRX5501772	virens	biotic antagonism	z	ZT05 + R. solani co-culture - rep 2
+challenge_confrontation	263	ERX16325297	N1508	biotic antagonism	s	strain N1508; replicate a; with pathogene Alternaria brassicicola; timepoint 2
+challenge_confrontation	263	SRX9608770	guizhouense	biotic antagonism	w	WT strain at initial contact with Foc4, rep 1
+challenge_confrontation	263	SRX5502491	harzianum	biotic antagonism	p	pathology fungi Rhizoctonia solani, rep 3
+challenge_confrontation	263	SRX13287622	IMI206040	biotic antagonism	t	Trichoderma atroviride WT vs Alternaria alternata at contact; biological replicate 2
+challenge_confrontation	263	ERX16325632	P3116	biotic antagonism	s	strain P3116; replicate a; with pathogene Alternaria brassicicola; timepoint 1
+challenge_confrontation	263	SRX11919500	IMI206040	biotic antagonism	t	Trichoderma atroviride IMI206040 with Botrytis cinerea B05.10, biological replicate 2
+challenge_confrontation	263	SRX13287632	IMI206040	biotic antagonism	t	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Alternaria alternata after contact; biological replicate 2
+challenge_confrontation	263	SRX9608762	guizhouense	biotic antagonism	w	WT strain after contact with Foc4, rep 3
+challenge_confrontation	263	SRX21486117	harzianum	biotic antagonism	c	C. musae, stage C, rep 2
+challenge_confrontation	263	SRX27153820	guizhouense	biotic antagonism	w	with Bacillus velezensis and Fusarium, rep 3
+challenge_confrontation	263	SRX21486128	harzianum	biotic antagonism	r	R. solani, stage B, rep 1
+challenge_confrontation	263	ERX16325633	P3041	biotic antagonism	s	strain P3041; replicate a; with pathogene Alternaria brassicicola; timepoint 2
+challenge_confrontation	263	SRX21486104	harzianum	biotic antagonism	r	R. solani, stage B, rep 2
+challenge_confrontation	263	SRX8564154	IMI206040	biotic antagonism	4	4h after fungivory by O. folsomi, biological replicate 1
+challenge_confrontation	263	SRX9608760	guizhouense	biotic antagonism	w	WT strain after contact with Foc4, rep 1
+challenge_confrontation	263	ERX16325060	I1237	biotic antagonism	s	strain I1237; replicate b; with pathogene Rhizoctonia solani; timepoint 1
+challenge_confrontation	263	SRX13287655	IMI206040	biotic antagonism	t	Trichoderma atroviride WT vs Rhizoctonia solani AG2 after contact; biological replicate 1
+challenge_confrontation	263	SRX9608772	guizhouense	biotic antagonism	w	WT strain at initial contact with Foc4, rep 3
+challenge_confrontation	263	ERX16324888	I1237	biotic antagonism	s	strain I1237; replicate a; with pathogene Rhizoctonia solani; timepoint 1
+challenge_confrontation	263	ERX16324893	I1237	biotic antagonism	s	strain I1237; replicate a; with pathogene Rhizoctonia solani; timepoint 2
+challenge_confrontation	263	SRX13287652	IMI206040	biotic antagonism	t	Trichoderma atroviride WT vs Alternaria alternata at contact; biological replicate 3
+challenge_confrontation	263	SRX13287697	IMI206040	biotic antagonism	t	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Alternaria alternata at contact; biological replicate 3
+challenge_confrontation	263	SRX13287626	IMI206040	biotic antagonism	t	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG2 after contact; biological replicate 2
+challenge_confrontation	263	SRX21486121	harzianum	biotic antagonism	c	C. musae, stage A, rep 3
+challenge_confrontation	263	ERX16325685	N1508	biotic antagonism	s	strain N1508; replicate b; with pathogene Globisporangium ultimum; timepoint 1
+challenge_confrontation	263	SRX13287628	IMI206040	biotic antagonism	t	Trichoderma atroviride dcr2 (Dicer - connected to small RNAs) mutant vs Rhizoctonia solani AG5 at contact; biological replicate 2
+challenge_confrontation	263	SRX8564151	IMI206040	biotic antagonism	9	90 min after fungivory by O. folsomi, biological replicate 1
+challenge_inanimate	27	ERX15108173	harzianum	biotic antagonism	inactivated	WT with inactivated mycelial powder from oomycete Pythium myriotylum, rep 3
+challenge_inanimate	27	ERX15108174	harzianum	biotic antagonism	inactivated	WT with inactivated mycelial powder from oomycete Pythium myriotylum, rep 2
+challenge_inanimate	27	ERX15108175	harzianum	biotic antagonism	inactivated	WT with inactivated mycelial powder from oomycete Pythium myriotylum, rep 1
+challenge_inanimate	27	ERX15108176	harzianum	biotic antagonism	inactivated	xyr 1 mutant with inactivated mycelial powder from oomycete Pythium myriotylum, rep 3
+challenge_inanimate	27	ERX15108177	harzianum	biotic antagonism	inactivated	xyr 1 mutant with inactivated mycelial powder from oomycete Pythium myriotylum, rep 2
+challenge_inanimate	27	ERX15108178	harzianum	biotic antagonism	inactivated	xyr 1 mutant with inactivated mycelial powder from oomycete Pythium myriotylum, rep 1
+challenge_inanimate	27	SRX19818575	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 24 h growth in B. cinerea cell wall, rep 2
+challenge_inanimate	27	SRX19818576	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 24 h growth in B. cinerea cell wall, rep 3
+challenge_inanimate	27	SRX19818580	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 48 h growth in B. cinerea cell wall, rep 1
+challenge_inanimate	27	SRX19818581	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 48 h growth in B. cinerea cell wall, rep 2
+challenge_inanimate	27	SRX19818582	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 48 h growth in B. cinerea cell wall, rep 3
+challenge_inanimate	27	SRX19818587	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 24 h growth in B. cinerea cell wall, rep 1
+challenge_inanimate	27	SRX19818591	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 12 h growth in B. cinerea cell wall, rep 3
+challenge_inanimate	27	SRX19818592	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 12 h growth in B. cinerea cell wall, rep 2
+challenge_inanimate	27	SRX19818593	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 12 h growth in B. cinerea cell wall, rep 1
+challenge_inanimate	27	SRX19818594	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 72 h growth in B. cinerea cell wall, rep 3
+challenge_inanimate	27	SRX19818595	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 72 h growth in B. cinerea cell wall, rep 2
+challenge_inanimate	27	SRX19818596	harzianum	biotic antagonism	cell wall	Trichoderma harzianum T4 72 h growth in B. cinerea cell wall, rep 1
+challenge_inanimate	27	SRX26896374	harzianum	biotic antagonism	fusaric acid	with fusaric acid
+challenge_inanimate	27	SRX26896375	harzianum	biotic antagonism	fusaric acid	with fusaric acid
+challenge_inanimate	27	SRX26896376	harzianum	biotic antagonism	fusaric acid	with fusaric acid
+challenge_inanimate	27	SRX28545144	harzianum	biotic antagonism	fusaric acid	with high fusaric acid
+challenge_inanimate	27	SRX28545145	harzianum	biotic antagonism	fusaric acid	with high fusaric acid
+challenge_inanimate	27	SRX28545146	harzianum	biotic antagonism	fusaric acid	with high fusaric acid
+challenge_inanimate	27	SRX348595	harzianum	biotic antagonism	cell wal	12 hours of induction in liquid medium supplemented with Sclerotinia sclerotiorum cell wal
+challenge_inanimate	27	SRX348596	harzianum	biotic antagonism	cell wal	24 hours of induction in liquid medium supplemented with Sclerotinia sclerotiorum cell wal
+challenge_inanimate	27	SRX348598	harzianum	biotic antagonism	cell wal	36 hours of induction in liquid medium supplemented with Sclerotinia sclerotiorum cell wal
+challenge_volatile	21	SRX8987249	harzianum	biotic antagonism	volatile	Trichoderma harzianum exposed to volatile compounds produced by culture of Fusarium oxysporum NRRL26029
+challenge_volatile	21	SRX8987256	harzianum	biotic antagonism	volatile	Trichoderma harzianum exposed to volatile compounds produced by culture of Fusarium oxysporum NRRL38272
+challenge_volatile	21	SRX8987257	harzianum	biotic antagonism	volatile	Trichoderma harzianum exposed to volatile compounds produced by culture of Fusarium oxysporum 9605
+challenge_volatile	21	SRX22888231	virens	biotic antagonism	vocs	Trichoderma virens exposed to NRRL26029 VOCs Replicate 2
+challenge_volatile	21	SRX22888232	virens	biotic antagonism	vocs	Trichoderma virens exposed to NRRL26029 VOCs Replicate 3
+challenge_volatile	21	SRX22888234	virens	biotic antagonism	vocs	Trichoderma virens exposed to NRRL38272 VOCs Replicate 1
+challenge_volatile	21	SRX22888256	virens	biotic antagonism	vocs	Trichoderma virens exposed to Fusarium oxysporum NRRL26029 VOCs Replicate 2
+challenge_volatile	21	SRX22888257	virens	biotic antagonism	vocs	Trichoderma virens exposed to Fusarium oxysporum NRRL26029 VOCs Replicate 3
+challenge_volatile	21	SRX22888258	virens	biotic antagonism	vocs	 Trichoderma virens exposed to Fusarium oxysporum 9605 VOCs Replicate 1
+challenge_volatile	21	SRX22888259	virens	biotic antagonism	vocs	 Trichoderma virens exposed to Fusarium oxysporum 9605 VOCs Replicate 2
+challenge_volatile	21	SRX22888260	virens	biotic antagonism	vocs	 Trichoderma virens exposed to Fusarium oxysporum 9605 VOCs Replicate 3
+challenge_volatile	21	SRX22888261	virens	biotic antagonism	vocs	Trichoderma virens exposed to Fusarium oxysporum NRRL26029 VOCs Replicate 1
+challenge_volatile	21	SRX8987245	virens	biotic antagonism	volatile	Trichoderma virens exposed to volatile compounds produced by culture of Fusarium oxysporum NRRL38272
+challenge_volatile	21	SRX8987246	virens	biotic antagonism	volatile	Trichoderma virens exposed to volatile compounds produced by culture of Fusarium oxysporum 9605
+challenge_volatile	21	SRX8987247	virens	biotic antagonism	volatile	Trichoderma virens exposed to volatile compounds produced by culture of Fusarium oxysporum NRRL26029
+challenge_volatile	21	SRX8987260	virens	biotic antagonism	volatile	Trichoderma viride exposed to volatile compounds produced by culture of Fusarium oxysporum NRRL26029
+challenge_volatile	21	SRX8987267	virens	biotic antagonism	volatile	Trichoderma viride exposed to volatile organic compounds produced by culture of Fusarium oxysporum NRRL38272
+challenge_volatile	21	SRX8987268	virens	biotic antagonism	volatile	Trichoderma viride exposed to volatile compounds produced by culture of Fusarium oxysporum 9605
+challenge_volatile	21	SRX8987279	asperellum	biotic antagonism	volatile	Trichoderma asperellum exposed to volatile compounds produced by culture of Fusarium oxysporum 9605
+challenge_volatile	21	SRX8987286	asperellum	biotic antagonism	volatile	Trichoderma asperellum exposed to volatile compounds produced by culture of Fusarium oxysporum 9605
+challenge_volatile	21	SRX8987287	asperellum	biotic antagonism	volatile	Trichoderma asperellum exposed to volatile compounds produced by culture of Fusarium oxysporum 9605
+injury_early	16	SRX20732839	IMI206040	mechanical injury	90min	lox1 (connected to damage response) mutant, 90min after mechanical injury, biological replicate 1
+injury_early	16	SRX20732842	IMI206040	mechanical injury	90min	Trichoderma WT, 90min after mechanical injury, biological replicate 1
+injury_early	16	SRX20732845	IMI206040	mechanical injury	90min	Trichoderma WT, 90min after mechanical injury, biological replicate 2
+injury_early	16	SRX20732848	IMI206040	mechanical injury	90min	plp1 (connected to damage response) mutant, 90min after mechanical injury, biological replicate 1
+injury_early	16	SRX20732851	IMI206040	mechanical injury	90min	lox1 (connected to damage response) mutant, 90min after mechanical injury, biological replicate 2
+injury_early	16	SRX20732854	IMI206040	mechanical injury	90min	plp1 (connected to damage response) mutant, 90min after mechanical injury, biological replicate 2
+injury_early	16	SRX20732857	IMI206040	mechanical injury	90min	Trichoderma WT, 90min after mechanical injury, biological replicate 3
+injury_early	16	SRX20732860	IMI206040	mechanical injury	90min	lox1 (connected to damage response) mutant, 90min after mechanical injury, biological replicate 3, barcode 89
+injury_early	16	SRX20732861	IMI206040	mechanical injury	90min	lox1 (connected to damage response) mutant, 90min after mechanical injury, biological replicate 3, barcode 90
+injury_early	16	SRX20732866	IMI206040	mechanical injury	90min	plp1 (connected to damage response) mutant, 90min after mechanical injury, biological replicate 3
+injury_early	16	SRX8564124	IMI206040	mechanical injury	30 min	30 min after mechanical injury, biological replicate 1
+injury_early	16	SRX8564125	IMI206040	mechanical injury	30 min	30 min after mechanical injury, biological replicate 2
+injury_early	16	SRX8564126	IMI206040	mechanical injury	30 min	30 min after mechanical injury, biological replicate 3
+injury_early	16	SRX8564127	IMI206040	mechanical injury	90 min	90 min after mechanical injury, biological replicate 1
+injury_early	16	SRX8564128	IMI206040	mechanical injury	90 min	90 min after mechanical injury, biological replicate 2
+injury_early	16	SRX8564129	IMI206040	mechanical injury	90 min	90 min after mechanical injury, biological replicate 3
+injury_late	16	SRX20732841	IMI206040	mechanical injury	4h	Trichoderma WT, 4h after mechanical injury, biological replicate 1
+injury_late	16	SRX20732844	IMI206040	mechanical injury	4h	Trichoderma WT, 4h after mechanical injury, biological replicate 2
+injury_late	16	SRX20732847	IMI206040	mechanical injury	4h	plp1 (connected to damage response) mutant, 4h after mechanical injury, biological replicate 1
+injury_late	16	SRX20732850	IMI206040	mechanical injury	4h	lox1 (connected to damage response) mutant, 4h after mechanical injury, biological replicate 1
+injury_late	16	SRX20732852	IMI206040	mechanical injury	4h	lox1 (connected to damage response) mutant, 4h after mechanical injury, biological replicate 2
+injury_late	16	SRX20732855	IMI206040	mechanical injury	4h	plp1 (connected to damage response) mutant, 4h after mechanical injury, biological replicate 2
+injury_late	16	SRX20732858	IMI206040	mechanical injury	4h	Trichoderma WT, 4h after mechanical injury, biological replicate 3
+injury_late	16	SRX20732862	IMI206040	mechanical injury	4h	lox1 (connected to damage response) mutant, 4h after mechanical injury, biological replicate 3, barcode 91
+injury_late	16	SRX20732863	IMI206040	mechanical injury	4h	lox1 (connected to damage response) mutant, 4h after mechanical injury, biological replicate 3, barcode 92
+injury_late	16	SRX20732867	IMI206040	mechanical injury	4h	plp1 (connected to damage response) mutant, 4h after mechanical injury, biological replicate 3
+injury_late	16	SRX8564130	IMI206040	mechanical injury	4h	4h after mechanical injury, biological replicate 1
+injury_late	16	SRX8564131	IMI206040	mechanical injury	4h	4h after mechanical injury, biological replicate 2
+injury_late	16	SRX8564132	IMI206040	mechanical injury	4h	4h after mechanical injury, biological replicate 3
+injury_late	16	SRX8564133	IMI206040	mechanical injury	8h	8h after mechanical injury, biological replicate 1
+injury_late	16	SRX8564134	IMI206040	mechanical injury	8h	8h after mechanical injury, biological replicate 2
+injury_late	16	SRX8564135	IMI206040	mechanical injury	8h	8h after mechanical injury, biological replicate 3
+light_blue	78	SRX9998133	IMI206040	light response	blue light	Trichoderma cry-DASH (photoreceptor) pulsed with blue light, biological replicate 2
+light_blue	78	SRX28435182	guizhouense	light response	blue light	deletion srp1, in blue light, rep 3
+light_blue	78	SRX19467696	guizhouense	light response	blue light	WT, in blue light, rep 3
+light_blue	78	SRX9998116	IMI206040	light response	blue light	Trichoderma Blr1 (photoreceptor) mutant pulsed with blue light, biological replicate 3
+light_blue	78	SRX28399747	guizhouense	light response	blue light	WT, in blue light, rep 2
+light_blue	78	SRX9998120	IMI206040	light response	blue light	Trichoderma Blr2 (photoreceptor) mutant pulsed with blue light, biological replicate 1
+light_blue	78	SRX11354399	guizhouense	light response	blue light	deletion env1, in blue light, rep 3
+light_blue	78	SRX19467694	guizhouense	light response	blue light	WT, in blue light, rep 1
+light_blue	78	SRX9998114	IMI206040	light response	blue light	Trichoderma Blr1 (photoreceptor) mutant pulsed with blue light, biological replicate 1
+light_blue	78	SRX11354393	guizhouense	light response	blue light	deletion blr 1, in blue light, rep 3
+light_blue	78	SRX9998128	IMI206040	light response	blue light	Trichoderma env1 (photoreceptor) mutant pulsed with blue light, biological replicate 3
+light_blue	78	SRX9998122	IMI206040	light response	blue light	Trichoderma Blr2 (photoreceptor) mutant pulsed with blue light, biological replicate 3
+light_blue	78	SRX26689953	guizhouense	light response	blue light	deletion hog1, in blue light, rep 2
+light_blue	78	SRX26689945	guizhouense	light response	blue light	deletion env1, in blue light, rep 1
+light_blue	78	SRX1175880	IMI206040	light response	blue light	100 micromol of blue light pulse/ Delta blue7 (a light-response gene) mutant strain, host Picea abies, run 1
+light_blue	78	SRX9998132	IMI206040	light response	blue light	Trichoderma cry-DASH (photoreceptor) pulsed with blue light, biological replicate 1
+light_blue	78	SRX28399748	guizhouense	light response	blue light	WT, in blue light, rep 3
+light_blue	78	SRX11354397	guizhouense	light response	blue light	deletion env1, in blue light, rep 1
+light_blue	78	SRX11354392	guizhouense	light response	blue light	deletion blr 1, in blue light, rep 2
+light_blue	78	SRX26689954	guizhouense	light response	blue light	deletion hog1, in blue light, rep 3
+light_blue	78	SRX11354405	guizhouense	light response	blue light	deletion hog1, in blue light, rep 2
+light_blue	78	SRX26689947	guizhouense	light response	blue light	deletion env1, in blue light, rep 3
+light_blue	78	SRX28399752	guizhouense	light response	blue light	deletion srk1, in blue light, rep 1
+light_blue	78	SRX19467691	guizhouense	light response	blue light	deletion atf1, in blue light, rep 2
+light_blue	78	SRX19467686	guizhouense	light response	blue light	deletion hog1, in blue light, rep 3
+light_blue	78	SRX9998127	IMI206040	light response	blue light	Trichoderma env1 (photoreceptor) mutant pulsed with blue light, biological replicate 2
+light_blue	78	SRX9998121	IMI206040	light response	blue light	Trichoderma Blr2 (photoreceptor) mutant pulsed with blue light, biological replicate 2
+light_blue	78	SRX28399737	guizhouense	light response	blue light	deletion srk1, in blue light, rep 2
+light_blue	78	SRX2264711	IMI206040	light response	blue light	Trichoderma grown in Darknes 36 h + 3 h after blue light induction, biological replicate 1
+light_blue	78	SRX2264706	IMI206040	light response	blue light	Trichoderma grown in Darknes 36 h + 24 h after blue light induction, biological replicate 2
+light_blue_pulse	20	SRX1175880	IMI206040	light response	pulse	100 micromol of blue light pulse/ Delta blue7 (a light-response gene) mutant strain, host Picea abies, run 1
+light_blue_pulse	20	SRX1177105	IMI206040	light response	pulse	100 micromol of blue light pulse/ WT type, host Picea abies, run 1
+light_blue_pulse	20	SRX9998114	IMI206040	light response	pulsed	Trichoderma Blr1 (photoreceptor) mutant pulsed with blue light, biological replicate 1
+light_blue_pulse	20	SRX9998115	IMI206040	light response	pulsed	Trichoderma Blr1 (photoreceptor) mutant pulsed with blue light, biological replicate 2
+light_blue_pulse	20	SRX9998116	IMI206040	light response	pulsed	Trichoderma Blr1 (photoreceptor) mutant pulsed with blue light, biological replicate 3
+light_blue_pulse	20	SRX9998120	IMI206040	light response	pulsed	Trichoderma Blr2 (photoreceptor) mutant pulsed with blue light, biological replicate 1
+light_blue_pulse	20	SRX9998121	IMI206040	light response	pulsed	Trichoderma Blr2 (photoreceptor) mutant pulsed with blue light, biological replicate 2
+light_blue_pulse	20	SRX9998122	IMI206040	light response	pulsed	Trichoderma Blr2 (photoreceptor) mutant pulsed with blue light, biological replicate 3
+light_blue_pulse	20	SRX9998126	IMI206040	light response	pulsed	Trichoderma env1 (photoreceptor) mutant pulsed with blue light, biological replicate 1
+light_blue_pulse	20	SRX9998127	IMI206040	light response	pulsed	Trichoderma env1 (photoreceptor) mutant pulsed with blue light, biological replicate 2
+light_blue_pulse	20	SRX9998128	IMI206040	light response	pulsed	Trichoderma env1 (photoreceptor) mutant pulsed with blue light, biological replicate 3
+light_blue_pulse	20	SRX9998132	IMI206040	light response	pulsed	Trichoderma cry-DASH (photoreceptor) pulsed with blue light, biological replicate 1
+light_blue_pulse	20	SRX9998133	IMI206040	light response	pulsed	Trichoderma cry-DASH (photoreceptor) pulsed with blue light, biological replicate 2
+light_blue_pulse	20	SRX9998134	IMI206040	light response	pulsed	Trichoderma cry-DASH (photoreceptor) pulsed with blue light, biological replicate 3
+light_blue_pulse	20	SRX9998138	IMI206040	light response	pulsed	Trichoderma cry1 (photoreceptor) pulsed with blue light, biological replicate 1
+light_blue_pulse	20	SRX9998139	IMI206040	light response	pulsed	Trichoderma cry1 (photoreceptor) pulsed with blue light, biological replicate 2
+light_blue_pulse	20	SRX9998140	IMI206040	light response	pulsed	Trichoderma cry1 (photoreceptor) pulsed with blue light, biological replicate 3
+light_blue_pulse	20	SRX9998144	IMI206040	light response	pulsed	Trichoderma WT, pulsed with blue light, biological replicate 1
+light_blue_pulse	20	SRX9998145	IMI206040	light response	pulsed	Trichoderma WT, pulsed with blue light, biological replicate 2
+light_blue_pulse	20	SRX9998146	IMI206040	light response	pulsed	Trichoderma WT, pulsed with blue light, biological replicate 3
+light_darkness	148	SRX9998149	IMI206040	control	darkness	Trichoderma WT, in darkness, biological replicate 3
+light_darkness	148	SRX26689939	guizhouense	control	darkness	WT in darkness, rep 2
+light_darkness	148	SRX20832428	reesei	light response	darkness	WT in darkness, rep 1
+light_darkness	148	SRX28399739	guizhouense	control	darkness	deletion srp1, in darkness, rep 1
+light_darkness	148	SRX21156704	reesei	control	darkness	deletion sor4 and ku80, growth on cellulose in darkness, rep 2
+light_darkness	148	SRX11354390	guizhouense	control	darkness	WT, in darkness, rep 1
+light_darkness	148	SRX26689960	guizhouense	control	darkness	deletion blr1, in darkness, rep 3
+light_darkness	148	SRX20830410	reesei	control	darkness	deletion ku80, in darkness, rep2
+light_darkness	148	SRX19467684	guizhouense	control	darkness	WT, in darkness, rep 2
+light_darkness	148	SRX9998123	IMI206040	control	darkness	Trichoderma Blr2 (photoreceptor) mutant in darkness, biological replicate 1
+light_darkness	148	SRX19014526	reesei	other	darkness	QM6a, 72004 mutant, in darkness, with methionine, biological replicate 3
+light_darkness	148	SRX28435187	guizhouense	control	darkness	deletion srp1, in darkness, rep 1
+light_darkness	148	SRX9998129	IMI206040	control	darkness	Trichoderma env1 (photoreceptor) mutant in darkness, biological replicate 1
+light_darkness	148	SRX7651170	reesei	control	darkness	GPR8 deletion, in darkness, rep 1
+light_darkness	148	SRX19014521	reesei	control	darkness	QM6a, 72004 mutant, in darkness, biological replicate 1
+light_darkness	148	SRX18093878	reesei	control	dark	WT, grown in dark, rep 3
+light_darkness	148	SRX18093876	reesei	control	dark	WT, grown in dark, rep 1
+light_darkness	148	SRX18922542	reesei	control	darkness	WT in darkness, replicate 3
+light_darkness	148	SRX7651168	reesei	control	darkness	WT in darkness, rep 2
+light_darkness	148	SRX20830412	reesei	control	darkness	deletion ku80 and tmk3, in darkness, rep1
+light_darkness	148	SRX26689943	guizhouense	control	darkness	deletion env1, in darkness rep 2
+light_darkness	148	SRX19014525	reesei	other	darkness	QM6a, 72004 mutant, in darkness, with methionine, biological replicate 2
+light_darkness	148	SRX4616919	reesei	control	darkness	deletion ypr2 QM6a in darkness, rep 2
+light_darkness	148	SRX18093881	reesei	control	dark	rgs4 deletion, grown in dark, rep 3
+light_darkness	148	SRX20832421	reesei	control	darkness	WT in darkness, rep 3
+light_darkness	148	SRX19014519	reesei	other	darkness	QM6a, WT, in darkness, with methionine, biological replicate 2
+light_darkness	148	SRX19467683	guizhouense	control	darkness	WT, in darkness, rep 1
+light_darkness	148	SRX26689938	guizhouense	control	darkness	WT in darkness, rep 1
+light_darkness	148	SRX19467688	guizhouense	control	darkness	deletion atf1, in darkness, rep 2
+light_darkness	148	SRX4616917	reesei	control	darkness	WT QM6a in darkness, rep 2
+light_far_red	9	SRX19922391	guizhouense	light response	far red	deletion phy, in far red light, rep 1
+light_far_red	9	SRX19922392	guizhouense	light response	far red	deletion phy, in far red light, rep 2
+light_far_red	9	SRX19922393	guizhouense	light response	far red	deletion phy, in far red light, rep 3
+light_far_red	9	SRX19922397	guizhouense	light response	far red	deletion hog 1, in far red light, rep 1
+light_far_red	9	SRX19922398	guizhouense	light response	far red	deletion hog 1, in far red light, rep 2
+light_far_red	9	SRX19922400	guizhouense	light response	far red	deletion hog1, in far red light, rep 3
+light_far_red	9	SRX19922401	guizhouense	light response	far red	WT, in far red light, rep 1
+light_far_red	9	SRX19922402	guizhouense	light response	far red	WT, in far red light, rep 2
+light_far_red	9	SRX19922403	guizhouense	light response	far red	WT, in far red light, rep 3
+light_red	9	SRX19922387	guizhouense	light response	red light	WT, in red light, rep 1
+light_red	9	SRX19922388	guizhouense	light response	red light	WT, in red light, rep 2
+light_red	9	SRX19922389	guizhouense	light response	red light	deletion phy, in red light, rep 2
+light_red	9	SRX19922390	guizhouense	light response	red light	deletion phy, in red light, rep 3
+light_red	9	SRX19922394	guizhouense	light response	red light	deletion hog1, in red light, rep 1
+light_red	9	SRX19922395	guizhouense	light response	red light	deletion hog1, in red light, rep 2
+light_red	9	SRX19922396	guizhouense	light response	red light	deletion hog1, in red light, rep 3
+light_red	9	SRX19922399	guizhouense	light response	red light	WT, in red light, rep 3
+light_red	9	SRX19922407	guizhouense	light response	red light	deletion phy, in red light, rep 1
+light_white	62	SRX18922547	reesei	light response	in light	WT in light, replicate 2
+light_white	62	SRX4616914	reesei	light response	in constant light	deletion ypr2 QM6a in constant light, rep 1
+light_white	62	SRX4616912	reesei	light response	in constant light	WT QM6a in constant light, rep 1
+light_white	62	SRX19014529	reesei	light response	in light	QM6a, WT, in light, biological replicate 3
+light_white	62	SRX7651159	reesei	light response	in constant light	WT in constant light, rep 1
+light_white	62	SRX19014530	reesei	other	in light	QM6a, WT, in light, with methionine, biological replicate 1
+light_white	62	SRX19014533	reesei	light response	in light	QM6a, 72004 mutant, in light, biological replicate 1
+light_white	62	SRX18922549	reesei	light response	in light	ste12 mutant in light, replicate 1
+light_white	62	SRX18093884	reesei	light response	grown in light	WT, grown in light, rep 3
+light_white	62	SRX4616915	reesei	light response	in constant light	deletion ypr2 QM6a in constant light, rep 2
+light_white	62	SRX7651160	reesei	light response	in constant light	WT in constant light, rep 2
+light_white	62	SRX7651165	reesei	light response	in constant light	GPR8 deletion, in constant light, rep 3
+light_white	62	SRX21156707	reesei	light response	growth on cellulose in light	deletion ku80, growth on cellulose in light, rep 1
+light_white	62	SRX18093886	reesei	light response	grown in light	rgs4 deletion, grown in light, rep 2
+light_white	62	SRX7651161	reesei	light response	in constant light	WT in constant light, rep 3
+light_white	62	SRX21156709	reesei	light response	growth on cellulose in light	deletion sor4 and ku80, growth on cellulose in light, rep 1
+light_white	62	SRX1545129	IMI206040	light response	grown in light	Trichoderma grown in light
+light_white	62	SRX18093883	reesei	light response	grown in light	WT, grown in light, rep 2
+light_white	62	SRX20830415	reesei	light response	in light	deletion ku80, in light, rep1
+light_white	62	SRX20830544	reesei	light response	in light	deletion mus53, in light, rep 3
+light_white	62	SRX20830417	reesei	light response	in light	deletion ku80, in light, rep3
+light_white	62	SRX1545142	IMI206040	light response	grown in light	Trichoderma Blr1 (Blue light receptor) mutant grown in light 
+light_white	62	SRX19014532	reesei	other	in light	QM6a, WT, in light, with methionine, biological replicate 3
+light_white	62	SRX19014535	reesei	light response	in light	QM6a, 72004 mutant, in light, biological replicate 3
+light_white	62	SRX19014531	reesei	other	in light	QM6a, WT, in light, with methionine, biological replicate 2
+light_white	62	SRX19014536	reesei	other	in light	QM6a, 72004 mutant, in light, with methionine, biological replicate 1
+light_white	62	SRX20830542	reesei	light response	in light	deletion mus53, in light, rep 1
+light_white	62	SRX18093887	reesei	light response	grown in light	rgs4 deletion, grown in light, rep 3
+light_white	62	SRX18922550	reesei	light response	in light	ste12 mutant in light, replicate 2
+light_white	62	SRX19014537	reesei	other	in light	QM6a, 72004 mutant, in light, with methionine, biological replicate 2
+metal_exposure	10	SRX6765860	harzianum	other	cadmium	with 2mgml cadmium
+metal_exposure	10	SRX20103023	asperellum	other	copper	Trichoderma asperellum with 0.5 mM copper, rep 1
+metal_exposure	10	SRX20103024	asperellum	other	copper	Trichoderma asperellum with 0.5 mM copper, rep 2
+metal_exposure	10	SRX20103025	asperellum	other	copper	Trichoderma asperellum with 0.5 mM copper, rep 3
+metal_exposure	10	SRX20103029	asperellum	other	copper	Trichoderma asperellum with 1mM copper, rep 1
+metal_exposure	10	SRX20103030	asperellum	other	copper	Trichoderma asperellum with 1mM copper, rep 2
+metal_exposure	10	SRX20103031	asperellum	other	copper	Trichoderma asperellum with 1mM copper, rep 3
+metal_exposure	10	SRX30380824	IMI206040	other	cadmium	Trichoderma alone exposed to cadmium, biological replicate 1
+metal_exposure	10	SRX30380825	IMI206040	other	cadmium	Trichoderma alone exposed to cadmium, biological replicate 2
+metal_exposure	10	SRX30380826	IMI206040	other	cadmium	Trichoderma alone exposed to cadmium, biological replicate 3
+nitrogen_source	25	SRX19014518	reesei	other	methionine	QM6a, WT, in darkness, with methionine, biological replicate 1
+nitrogen_source	25	SRX19014519	reesei	other	methionine	QM6a, WT, in darkness, with methionine, biological replicate 2
+nitrogen_source	25	SRX19014520	reesei	other	methionine	QM6a, WT, in darkness, with methionine, biological replicate 3
+nitrogen_source	25	SRX19014524	reesei	other	methionine	QM6a, 72004 mutant, in darkness, with methionine, biological replicate 1
+nitrogen_source	25	SRX19014525	reesei	other	methionine	QM6a, 72004 mutant, in darkness, with methionine, biological replicate 2
+nitrogen_source	25	SRX19014526	reesei	other	methionine	QM6a, 72004 mutant, in darkness, with methionine, biological replicate 3
+nitrogen_source	25	SRX19014530	reesei	other	methionine	QM6a, WT, in light, with methionine, biological replicate 1
+nitrogen_source	25	SRX19014531	reesei	other	methionine	QM6a, WT, in light, with methionine, biological replicate 2
+nitrogen_source	25	SRX19014532	reesei	other	methionine	QM6a, WT, in light, with methionine, biological replicate 3
+nitrogen_source	25	SRX19014536	reesei	other	methionine	QM6a, 72004 mutant, in light, with methionine, biological replicate 1
+nitrogen_source	25	SRX19014537	reesei	other	methionine	QM6a, 72004 mutant, in light, with methionine, biological replicate 2
+nitrogen_source	25	SRX19014538	reesei	other	methionine	QM6a, 72004 mutant, in light, with methionine, biological replicate 3
+nitrogen_source	25	SRX10593064	harzianum	other	low n medium	Trichoderma harzianum: low N medium, rep 1
+nitrogen_source	25	SRX10593065	harzianum	other	low n medium	Trichoderma harzianum: low N medium, rep 2
+nitrogen_source	25	SRX10593067	harzianum	other	low n medium	Trichoderma harzianum: low N medium, rep 4
+nitrogen_source	25	SRX10593068	harzianum	other	low n medium	Trichoderma harzianum: low N medium, rep 6
+nitrogen_source	25	SRX10593069	harzianum	other	low n medium	Trichoderma harzianum: low N medium, rep 8
+nitrogen_source	25	SRX10593070	harzianum	other	low n medium	Trichoderma harzianum: low N medium, rep 9
+nitrogen_source	25	SRX11913993	asperellum	other	nitrogen	Trichoderma asperellum grown without nitrogen source
+nitrogen_source	25	SRX28844766	longibrachiatum	other	nitrogen	corn stover with inorganic nitrogen (ammonium sulfate), rep 1
+nitrogen_source	25	SRX28844767	longibrachiatum	other	nitrogen	corn stover with inorganic nitrogen (ammonium sulfate), rep 2
+nitrogen_source	25	SRX28844768	longibrachiatum	other	nitrogen	corn stover with inorganic nitrogen (ammonium sulfate), rep 3
+nitrogen_source	25	SRX28844769	longibrachiatum	other	nitrogen	corn stover with organic nitrogen (peptone), rep 1
+nitrogen_source	25	SRX28844770	longibrachiatum	other	nitrogen	corn stover with organic nitrogen (peptone), rep 2
+nitrogen_source	25	SRX28844771	longibrachiatum	other	nitrogen	corn stover with organic nitrogen (peptone), rep 3
+sexual_development	42	SRX18781733	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 8 days after mating, run 2
+sexual_development	42	SRX18781728	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 7 days after mating, run 1
+sexual_development	42	SRX18781818	reesei	other	mating	WTH0015 x WTH0011, WT, 5 days post mating, run 3
+sexual_development	42	SRX18781714	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 2 days after mating, run 3
+sexual_development	42	SRX18781815	reesei	other	mating	WTH0015 x WTH0011, WT, 4 days post mating, run 3
+sexual_development	42	SRX18781822	reesei	other	mating	WTH0015 x WTH0011, WT, 6 days post mating, run 3
+sexual_development	42	SRX18781821	reesei	other	mating	WTH0015 x WTH0011, WT, 6 days post mating, run 2
+sexual_development	42	SRX18781718	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 4 days after mating, run 1
+sexual_development	42	SRX18781725	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 6 days after mating, run 1
+sexual_development	42	SRX18781825	reesei	other	mating	WTH0015 x WTH0011, WT, 7 days post mating, run 3
+sexual_development	42	SRX18781816	reesei	other	mating	WTH0015 x WTH0011, WT, 5 days post mating, run 1
+sexual_development	42	SRX18781809	reesei	other	mating	WTH0015 x WTH0011, WT, 2 days post mating, run 3
+sexual_development	42	SRX18781722	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 5 days after mating, run 1
+sexual_development	42	SRX18781734	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 8 days after mating, run 3
+sexual_development	42	SRX18781813	reesei	other	mating	WTH0015 x WTH0011, WT, 4 days post mating, run 1
+sexual_development	42	SRX18781811	reesei	other	mating	WTH0015 x WTH0011, WT, 3 days post mating, run 2
+sexual_development	42	SRX18781730	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 7 days after mating, run 3
+sexual_development	42	SRX18781824	reesei	other	mating	WTH0015 x WTH0011, WT, 7 days post mating, run 2
+sexual_development	42	SRX18781817	reesei	other	mating	WTH0015 x WTH0011, WT, 5 days post mating, run 2
+sexual_development	42	SRX18781724	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 5 days after mating, run 3
+sexual_development	42	SRX18781717	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 3 days after mating, run 3
+sexual_development	42	SRX18781729	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 7 days after mating, run 2
+sexual_development	42	SRX18781807	reesei	other	mating	WTH0015 x WTH0011, WT, 2 days post mating, run 2
+sexual_development	42	SRX18781820	reesei	other	mating	WTH0015 x WTH0011, WT, 6 days post mating, run 1
+sexual_development	42	SRX18781804	reesei	other	mating	WTH0015 x WTH0011, WT, 1 day post mating, run 2
+sexual_development	42	SRX18781806	reesei	other	mating	WTH0015 x WTH0011, WT, 2 days post mating, run 1
+sexual_development	42	SRX18781715	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 3 days after mating, run 1
+sexual_development	42	SRX18781823	reesei	other	mating	WTH0015 x WTH0011, WT, 7 days post mating, run 1
+sexual_development	42	SRX18781732	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 8 days after mating, run 1
+sexual_development	42	SRX18781716	reesei	other	mating	WTH13058 x WTH13059, deletion rid1 homozygous, 3 days after mating, run 2
+stress_oxidative	41	SRX22628785	guizhouense	other	hydrogen peroxide	2h 20mM hydrogen peroxide exposure, rep 2
+stress_oxidative	41	SRX7949332	guizhouense	other	h2o2	WT strain incubated on GSM exposure to H2O2, rep 1
+stress_oxidative	41	SRX22628781	guizhouense	other	hydrogen peroxide	2h 10mM hydrogen peroxide exposure, rep 1
+stress_oxidative	41	SRX22628719	guizhouense	other	hydrogen peroxide	0.5h 20mM hydrogen peroxide exposure of Tg WT strain, rep 1
+stress_oxidative	41	SRX22628796	guizhouense	other	hydrogen peroxide	0.5h 40mM hydrogen peroxide exposure, rep 1
+stress_oxidative	41	SRX22628772	guizhouense	other	hydrogen peroxide	1h 20mM hydrogen peroxide exposure, rep 2
+stress_oxidative	41	SRX22628774	guizhouense	other	hydrogen peroxide	1h 20mM hydrogen peroxide exposure, rep 3
+stress_oxidative	41	SRX22628764	guizhouense	other	hydrogen peroxide	0.5h 40mM hydrogen peroxide exposure, rep 3
+stress_oxidative	41	SRX7949329	guizhouense	other	h2o2	tgaza1 strain incubated on GSM exposure to H2O2, rep 2
+stress_oxidative	41	SRX7949330	guizhouense	other	h2o2	tgaza1 strain incubated on GSM exposure to H2O2, rep 3
+stress_oxidative	41	SRX22628795	guizhouense	other	hydrogen peroxide	0.5h 20mM hydrogen peroxide exposure, rep 4
+stress_oxidative	41	SRX22628718	guizhouense	other	hydrogen peroxide	0.5h 20mM hydrogen peroxide exposure of knock of gene OPB39294 muntant, rep 3
+stress_oxidative	41	SRX22628789	guizhouense	other	hydrogen peroxide	2h 40mM hydrogen peroxide exposure, rep 2
+stress_oxidative	41	SRX22628776	guizhouense	other	hydrogen peroxide	1h 40mM hydrogen peroxide exposure, rep 3
+stress_oxidative	41	SRX22628713	guizhouense	other	hydrogen peroxide	0.5h 20mM hydrogen peroxide exposure of knock of gene OPB42349 muntant, rep 1
+stress_oxidative	41	SRX22628715	guizhouense	other	hydrogen peroxide	0.5h 20mM hydrogen peroxide exposure of knock of gene OPB42349 muntant, rep 3
+stress_oxidative	41	SRX22628716	guizhouense	other	hydrogen peroxide	0.5h 20mM hydrogen peroxide exposure of knock of gene OPB39294 muntant, rep 1
+stress_oxidative	41	SRX22628770	guizhouense	other	hydrogen peroxide	1h 20mM hydrogen peroxide exposure, rep 3
+stress_oxidative	41	SRX22628777	guizhouense	other	hydrogen peroxide	1h 40mM hydrogen peroxide exposure, rep 4
+stress_oxidative	41	SRX22628720	guizhouense	other	hydrogen peroxide	0.5h 20mM hydrogen peroxide exposure of Tg WT strain, rep 2
+stress_oxidative	41	SRX22628775	guizhouense	other	hydrogen peroxide	1h 40mM hydrogen peroxide exposure, rep 1
+stress_oxidative	41	SRX22628788	guizhouense	other	hydrogen peroxide	2h 40mM hydrogen peroxide exposure, rep 1
+stress_oxidative	41	SRX7949334	guizhouense	other	h2o2	WT strain incubated on GSM exposure to H2O2, rep 3
+stress_oxidative	41	SRX22628769	guizhouense	other	hydrogen peroxide	1h 10mM hydrogen peroxide exposure, rep 2
+stress_oxidative	41	SRX22628783	guizhouense	other	hydrogen peroxide	2h 10mM hydrogen peroxide exposure, rep 4
+stress_oxidative	41	SRX22628787	guizhouense	other	hydrogen peroxide	2h 20mM hydrogen peroxide exposure, rep 4
+stress_oxidative	41	SRX22628782	guizhouense	other	hydrogen peroxide	2h 10mM hydrogen peroxide exposure, rep 3
+stress_oxidative	41	SRX22628771	guizhouense	other	hydrogen peroxide	1h 20mM hydrogen peroxide exposure, rep 1
+stress_oxidative	41	SRX22628763	guizhouense	other	hydrogen peroxide	0.5h 40mM hydrogen peroxide exposure, rep 2
+stress_oxidative	41	SRX22628714	guizhouense	other	hydrogen peroxide	0.5h 20mM hydrogen peroxide exposure of knock of gene OPB42349 muntant, rep 2
+xenobiotic	12	SRX12095778	reesei	other	polyethylene glycol	Trichoderma reesei treated with polyethylene glycol, rep 1
+xenobiotic	12	SRX12095779	reesei	other	polyethylene glycol	Trichoderma reesei treated with polyethylene glycol, rep 2
+xenobiotic	12	SRX12095780	reesei	other	polyethylene glycol	Trichoderma reesei treated with polyethylene glycol, rep 3
+xenobiotic	12	SRX4058785	asperellum	other	dichlorvos	100 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 1
+xenobiotic	12	SRX4058786	asperellum	other	dichlorvos	100 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 2
+xenobiotic	12	SRX4058787	asperellum	other	dichlorvos	100 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 3
+xenobiotic	12	SRX4058788	asperellum	other	dichlorvos	500 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 1
+xenobiotic	12	SRX4058789	asperellum	other	dichlorvos	500 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 2
+xenobiotic	12	SRX4058790	asperellum	other	dichlorvos	500 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 3
+xenobiotic	12	SRX4058791	asperellum	other	dichlorvos	1000 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 1
+xenobiotic	12	SRX4058792	asperellum	other	dichlorvos	1000 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 2
+xenobiotic	12	SRX4058793	asperellum	other	dichlorvos	1000 μg/mL dichlorvos at 28°C and 180 rpm for 24 h, rep 3

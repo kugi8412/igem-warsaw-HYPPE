@@ -1,0 +1,29 @@
+subcategory	n_total	n_audited	n_correct	precision	wilson_lo95	adjudication_note
+after_contact	87	30	30	1.0000	0.8865	Correct as a SAMPLING STAGE label. 22 of 87 rows are the time-matched control arm ('Trichoderma alone (control) after contact'); the stage is still after-contact, so these are true positives on this axis, not on antagonist_kingdom.
+antagonist_animal	27	27	27	1.0000	0.8754	All 27 audited (n_total<=30), so this is exact for the corpus, not an estimate. Grazers are D. melanogaster larvae, O. folsomi (springtail) and B. xylophilus (nematode).
+antagonist_bacterium	6	6	6	1.0000	0.6097	All 6 audited. 3x 'co-culture with B. velezensis', 3x 'with Bacillus velezensis and Fusarium' (the latter also carry antagonist_fungus, correctly). The supervisor's count of 18 came from study_title matches.
+antagonist_fungus	242	30	30	1.0000	0.8865	Named genera plus abbreviations the corpus actually uses (R. solani, C. musae, S. rolfsii, B. cinerea, A. alternata) plus NRRL strain codes of Fusarium oxysporum.
+antagonist_oomycete	39	30	30	1.0000	0.8865	Pythium myriotylum and Globisporangium ultimum only; both are oomycetes. The generic fungal fallback is blocked on these rows by `excludes`.
+at_contact	33	30	30	1.0000	0.8865	at contact and 'initial contact'.
+before_contact	103	30	30	1.0000	0.8865	All 103 rows sit under parent `control`; the label is the sampling stage of a confrontation or plant-interaction experiment.
+carbon_chitin	6	6	6	1.0000	0.6097	All 6 audited, all literally 'chitin as carbon source'.
+carbon_lignocellulose	196	30	30	1.0000	0.8865	cellulose/Avicel/xylan/xyloglucan/wheat straw/wheat bran(WB)/bagasse/SBH/corn stover.
+carbon_simple_sugar	78	30	30	1.0000	0.8865	glucose/glycerol/mannitol/D-xylose/fructose. Rows such as '52 hours of lactose growth and 6h of glucose' correctly carry BOTH this and carbon_soluble_inducer - a transfer experiment is two carbon sources.
+carbon_soluble_inducer	107	30	30	1.0000	0.8865	sophorose and lactose.
+carbon_starvation	48	30	30	1.0000	0.8865	no carbon source / 'carbon starvation' / 'grown without carbon source'.
+challenge_confrontation	263	30	30	1.0000	0.8865	Default arm of the mode axis. All 30 audited rows are direct live-partner confrontations; fungivory counts as direct contact.
+challenge_inanimate	27	27	27	1.0000	0.8754	All 27 audited. FIRST AUDIT FOUND 3 MISSES, not false positives: the source spells 'cell wal' on the Sclerotinia rows, so they had fallen into challenge_confrontation. Pattern widened to `cell\s*wall?\b`.
+challenge_volatile	21	21	21	1.0000	0.8454	All 21 audited. Live partner, shared headspace, no contact.
+injury_early	16	16	16	1.0000	0.8064	All 16 audited. 30 min and 90 min post-injury.
+injury_late	16	16	16	1.0000	0.8064	All 16 audited. 4 h and 8 h post-injury.
+light_blue	78	30	30	1.0000	0.8865	FIRST AUDIT FOUND 1 FALSE POSITIVE in the corpus: 'Trichoderma Blr1 (Blue light receptor) mutant grown in light' is a WHITE-light sample named after its gene. Fixed with a `(?!\s*receptor)` lookahead; re-audited clean. n_total fell 79 -> 78.
+light_blue_pulse	20	20	20	1.0000	0.8389	All 20 audited. Gated on light_blue by `requires`, which is what keeps the 2 sorbitol-pulse osmotic samples out.
+light_darkness	148	30	30	1.0000	0.8865	Constant darkness. Note the 12 'Darknes 36 h + Nh after blue light induction' rows do NOT match (the source drops one s), and they are correctly blue-only - they are a light-induction time course, not darkness.
+light_far_red	9	9	9	1.0000	0.7009	All 9 audited.
+light_red	9	9	9	1.0000	0.7009	All 9 audited. The preliminary free-text scan reported 21 because the study_title of all 21 samples of that BioProject contains 'red and far-red'; 9 are red, 9 far-red, 3 are darkness controls.
+light_white	62	30	30	1.0000	0.8865	Unspecified/broad-spectrum illumination, 'in light' / 'in constant light' / 'grown in light'. Does not match '14h photoperiod' by design.
+metal_exposure	10	10	10	1.0000	0.7225	All 10 audited: copper and cadmium.
+nitrogen_source	25	25	25	1.0000	0.8668	All 25 audited. Includes 'grown without nitrogen source' (nitrogen starvation) and the methionine series - the axis is 'nitrogen source manipulated', so both belong.
+sexual_development	42	30	30	1.0000	0.8865	Crosses sampled 1-8 days post mating.
+stress_oxidative	41	30	30	1.0000	0.8865	Hydrogen peroxide dose/time series.
+xenobiotic	12	12	12	1.0000	0.7575	All 12 audited: dichlorvos and polyethylene glycol.

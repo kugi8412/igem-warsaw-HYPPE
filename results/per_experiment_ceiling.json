@@ -1,0 +1,12 @@
+{
+  "pcc_ceiling": 0.9086485043077004,
+  "scc_ceiling": 0.9020537571664798,
+  "n_measurements": 18836632,
+  "n_cells": 539826,
+  "within_cell_variance": 1.1651917103012472,
+  "total_variance": 6.682758507505965,
+  "within_cell_fraction": 0.17435789561937978,
+  "min_cell": 2,
+  "matrix": "/home/jakub/HYPPE/data/final_datasets/og_scope/anchor3_log2.tsv.gz",
+  "samples": "/home/jakub/HYPPE/data/samples_metadata.tsv"
+}

@@ -1,0 +1,120 @@
+{
+ "kontrola_haka": null,
+ "epoki": {
+  "008": {
+   "baza": {
+    "val": 0.6948125656478746,
+    "val_pcc": 0.680545882352992,
+    "val_within_row_pcc": 0.18680211158677829,
+    "val_within_row_pred_sd": 0.08127953339136246,
+    "val_within_row_target_sd": 0.6695001219346587,
+    "val_within_row_rows": 5003.0,
+    "val_within_fraction": 0.08186761836137396,
+    "trsub": 0.824652907476409,
+    "trsub_pcc": 0.8139128454619523,
+    "trsub_within_row_pcc": 0.1874708764178085,
+    "trsub_within_row_pred_sd": 0.0868154173533937,
+    "trsub_within_row_target_sd": 0.7189554696694241,
+    "trsub_within_row_rows": 4982.0,
+    "trsub_within_fraction": 0.08862983040250628,
+    "luka": 0.12984034182853432
+   },
+   "bez_text": {
+    "val": 0.6932081523251561,
+    "val_pcc": 0.6740954309248192,
+    "val_within_row_pcc": 0.1884049041117919,
+    "val_within_row_pred_sd": 0.07937243408165352,
+    "val_within_row_target_sd": 0.6695001219346587,
+    "val_within_row_rows": 5003.0,
+    "val_within_fraction": 0.08186761836137396,
+    "trsub": 0.8222098962038402,
+    "trsub_pcc": 0.8075403897259136,
+    "trsub_within_row_pcc": 0.18875036311925103,
+    "trsub_within_row_pred_sd": 0.08512777937018079,
+    "trsub_within_row_target_sd": 0.7189554696694241,
+    "trsub_within_row_rows": 4982.0,
+    "trsub_within_fraction": 0.08862983040250628,
+    "luka": 0.12900174387868413
+   },
+   "tas_species": {
+    "val": 0.6882043582784828,
+    "val_pcc": 0.6758665507312209,
+    "val_within_row_pcc": 0.16449800577171225,
+    "val_within_row_pred_sd": 0.07853919810084191,
+    "val_within_row_target_sd": 0.6695001219346587,
+    "val_within_row_rows": 5003.0,
+    "val_within_fraction": 0.08186761836137396,
+    "trsub": 0.8180466743741988,
+    "trsub_pcc": 0.8078729047071668,
+    "trsub_within_row_pcc": 0.16975515522039006,
+    "trsub_within_row_pred_sd": 0.08454457889461499,
+    "trsub_within_row_target_sd": 0.7189554696694241,
+    "trsub_within_row_rows": 4982.0,
+    "trsub_within_fraction": 0.08862983040250628,
+    "luka": 0.12984231609571595
+   },
+   "bez_text+tas_species": {
+    "val": 0.683215959990689,
+    "val_pcc": 0.6668618171044577,
+    "val_within_row_pcc": 0.1619799227518119,
+    "val_within_row_pred_sd": 0.07729687749231846,
+    "val_within_row_target_sd": 0.6695001219346587,
+    "val_within_row_rows": 5003.0,
+    "val_within_fraction": 0.08186761836137396,
+    "trsub": 0.8088955729109301,
+    "trsub_pcc": 0.797077953988596,
+    "trsub_within_row_pcc": 0.15374156238677372,
+    "trsub_within_row_pred_sd": 0.08253938846356002,
+    "trsub_within_row_target_sd": 0.7189554696694241,
+    "trsub_within_row_rows": 4982.0,
+    "trsub_within_fraction": 0.08862983040250628,
+    "luka": 0.1256796129202411
+   },
+   "tas_text": {
+    "val": 0.6925680730485205,
+    "val_pcc": 0.6707034400407141,
+    "val_within_row_pcc": 0.17925923652681303,
+    "val_within_row_pred_sd": 0.07967542720393683,
+    "val_within_row_target_sd": 0.6695001219346587,
+    "val_within_row_rows": 5003.0,
+    "val_within_fraction": 0.08186761836137396,
+    "trsub": 0.8219321036178497,
+    "trsub_pcc": 0.8077801390929218,
+    "trsub_within_row_pcc": 0.17488970890776143,
+    "trsub_within_row_pred_sd": 0.08541037470557283,
+    "trsub_within_row_target_sd": 0.7189554696694241,
+    "trsub_within_row_rows": 4982.0,
+    "trsub_within_fraction": 0.08862983040250628,
+    "luka": 0.1293640305693292
+   },
+   "tas_text+tas_species": {
+    "val": 0.6846983210873491,
+    "val_pcc": 0.6667829396398144,
+    "val_within_row_pcc": 0.15870461839249667,
+    "val_within_row_pred_sd": 0.07728465767714457,
+    "val_within_row_target_sd": 0.6695001219346587,
+    "val_within_row_rows": 5003.0,
+    "val_within_fraction": 0.08186761836137396,
+    "trsub": 0.8127703090128122,
+    "trsub_pcc": 0.7995579473109689,
+    "trsub_within_row_pcc": 0.15585172313336854,
+    "trsub_within_row_pred_sd": 0.08450134468514499,
+    "trsub_within_row_target_sd": 0.7189554696694241,
+    "trsub_within_row_rows": 4982.0,
+    "trsub_within_fraction": 0.08862983040250628,
+    "luka": 0.12807198792546315
+   }
+  }
+ },
+ "zrodla": {
+  "008": {
+   "path": "/home/jakub/HYPPE/runs/hyppe-foundational_fundational.pt",
+   "md5": "fd161127f0b11a0a7c33bf55e4bb2cfc"
+  }
+ },
+ "kontrola_within": {
+  "pred_sd": 1.2370424106813662e-16,
+  "within_row_pcc": 7.612667381010967e-19,
+  "prog_pred_sd": 1e-12
+ }
+}

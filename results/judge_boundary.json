@@ -1,0 +1,28 @@
+{
+ "checkpoint": "/mnt/c/Nauka/Studia/Projekty/Projekt-BW/KAAMMB/HYPPE/HYperbolicPromoterProgrammingEngine/weights/hyppe_judge.pt",
+ "md5": "906bd7a0cce7b92694994b5ef69158b6",
+ "rodzic": "/home/jakub/HYPPE/runs/snap_ep8_val.pt",
+ "ziarno": 42,
+ "krok": 225,
+ "nad_pks1": {
+  "przed": 0.5669014084507042,
+  "po": 0.813849765258216,
+  "opis": "zbalansowana trafnosc decyzji \"powyzej pks1\", val P1"
+ },
+ "frakcja_pod_tef1": {
+  "przed": 0.9899665551839465,
+  "po": 0.9966555183946488,
+  "opis": "frakcja val ponizej tef1"
+ },
+ "rodzina": {
+  "przed": -0.48571428571428577,
+  "po": 0.8857142857142858,
+  "opis": "Spearman rankingu rodziny pks1 (wstrzymane ortologi)"
+ },
+ "korpus": {
+  "przed": 0.5687574178594323,
+  "po": 0.5135154821467736,
+  "opis": "Spearman na calym korpusie val"
+ },
+ "delta_wag_poza_pairwise": 0.0
+}

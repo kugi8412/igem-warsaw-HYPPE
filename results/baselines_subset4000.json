@@ -1,0 +1,188 @@
+{
+  "config": "config/default.yaml",
+  "splits": "/home/jakub/HYPPE/data/splits/SPLIT_V6.tsv",
+  "split_column": "H_kmer90",
+  "eval_split": "val",
+  "max_orthogroups": 4000,
+  "n_rows": 21340,
+  "n_target_columns": 7,
+  "seed": 42,
+  "results": [
+    {
+      "name": "kmer3_ridge",
+      "n_features": 64,
+      "n_params": 455,
+      "metrics": {
+        "pcc": 0.41436713792140384,
+        "scc": 0.411069540917754,
+        "mse": 4.667435962885772,
+        "pred_sd": 0.8874276272041222,
+        "target_sd": 2.3640947568822934,
+        "n_cells": 14600.0
+      },
+      "chosen": {
+        "lambda": 0.1,
+        "val_pcc": 0.41436713792140384,
+        "k": 3,
+        "with_species": false,
+        "eval_split": "val"
+      },
+      "seconds": 1.1847705841064453
+    },
+    {
+      "name": "kmer3+species_ridge",
+      "n_features": 83,
+      "n_params": 588,
+      "metrics": {
+        "pcc": 0.4960821015504999,
+        "scc": 0.49662229703286925,
+        "mse": 4.244196497517506,
+        "pred_sd": 1.1316196546565804,
+        "target_sd": 2.3640947568822934,
+        "n_cells": 14600.0
+      },
+      "chosen": {
+        "lambda": 0.1,
+        "val_pcc": 0.4960821015504999,
+        "k": 3,
+        "with_species": true,
+        "eval_split": "val"
+      },
+      "seconds": 1.1773674488067627
+    },
+    {
+      "name": "kmer4_ridge",
+      "n_features": 256,
+      "n_params": 1799,
+      "metrics": {
+        "pcc": 0.4453628510121426,
+        "scc": 0.4455156131687458,
+        "mse": 4.557228146556022,
+        "pred_sd": 0.8301980178757202,
+        "target_sd": 2.3640947568822934,
+        "n_cells": 14600.0
+      },
+      "chosen": {
+        "lambda": 0.1,
+        "val_pcc": 0.4453628510121426,
+        "k": 4,
+        "with_species": false,
+        "eval_split": "val"
+      },
+      "seconds": 1.3999738693237305
+    },
+    {
+      "name": "kmer4+species_ridge",
+      "n_features": 275,
+      "n_params": 1932,
+      "metrics": {
+        "pcc": 0.5151119724360625,
+        "scc": 0.5187461972914084,
+        "mse": 4.148940722368545,
+        "pred_sd": 1.089804263382456,
+        "target_sd": 2.3640947568822934,
+        "n_cells": 14600.0
+      },
+      "chosen": {
+        "lambda": 0.1,
+        "val_pcc": 0.5151119724360625,
+        "k": 4,
+        "with_species": true,
+        "eval_split": "val"
+      },
+      "seconds": 1.4066462516784668
+    },
+    {
+      "name": "kmer5_ridge",
+      "n_features": 1024,
+      "n_params": 7175,
+      "metrics": {
+        "pcc": 0.4410822542369489,
+        "scc": 0.4454159387491654,
+        "mse": 4.6701307250994635,
+        "pred_sd": 0.668650563376693,
+        "target_sd": 2.3640947568822934,
+        "n_cells": 14600.0
+      },
+      "chosen": {
+        "lambda": 0.1,
+        "val_pcc": 0.4410822542369489,
+        "k": 5,
+        "with_species": false,
+        "eval_split": "val"
+      },
+      "seconds": 3.6533825397491455
+    },
+    {
+      "name": "kmer5+species_ridge",
+      "n_features": 1043,
+      "n_params": 7308,
+      "metrics": {
+        "pcc": 0.500596633003549,
+        "scc": 0.5061972586180296,
+        "mse": 4.261591942485775,
+        "pred_sd": 0.9715393974404438,
+        "target_sd": 2.3640947568822934,
+        "n_cells": 14600.0
+      },
+      "chosen": {
+        "lambda": 0.1,
+        "val_pcc": 0.500596633003549,
+        "k": 5,
+        "with_species": true,
+        "eval_split": "val"
+      },
+      "seconds": 2.673051357269287
+    },
+    {
+      "name": "cnn_onehot",
+      "n_features": 4,
+      "n_params": 105991,
+      "metrics": {
+        "pcc": 0.4579593516688578,
+        "scc": 0.447967414823878,
+        "mse": 4.88112863382228,
+        "pred_sd": 1.069518902679667,
+        "target_sd": 2.3640947568822934,
+        "n_cells": 14600.0
+      },
+      "chosen": {
+        "best_epoch": 1,
+        "val_pcc": 0.4579593516688578,
+        "epochs": 8,
+        "width": 64,
+        "depth": 4,
+        "lr": 0.001,
+        "seed": 42,
+        "with_species": false,
+        "eval_split": "val"
+      },
+      "seconds": 3.3333749771118164
+    },
+    {
+      "name": "cnn_onehot+species",
+      "n_features": 23,
+      "n_params": 114503,
+      "metrics": {
+        "pcc": 0.5141542127859612,
+        "scc": 0.5016474097983032,
+        "mse": 4.148505027062673,
+        "pred_sd": 1.1181517658776716,
+        "target_sd": 2.3640947568822934,
+        "n_cells": 14600.0
+      },
+      "chosen": {
+        "best_epoch": 2,
+        "val_pcc": 0.5141542127859612,
+        "epochs": 8,
+        "width": 64,
+        "depth": 4,
+        "lr": 0.001,
+        "seed": 42,
+        "with_species": true,
+        "eval_split": "val"
+      },
+      "seconds": 1.5457453727722168
+    }
+  ]
+}
