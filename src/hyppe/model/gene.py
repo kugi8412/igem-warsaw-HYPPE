@@ -69,7 +69,7 @@ class GeneConfig:
     """Widths and dropout rates of the gene channel."""
 
     d_ctx: int = 224                  # must equal ConditionConfig.cond_d_ctx
-    d_lm: int = 384                   # must equal ConditionConfig.cond_d_lm
+    d_lm: int = 768                   # must equal ConditionConfig.cond_d_lm
     hidden: int = 128
     identity_dim: int = 0             # 0 = content only; see the docstring
     identity_buckets: int = 4096

@@ -584,8 +584,8 @@ class FrozenTextEncoder:
     """
 
     def __init__(self, spec: Optional[ConditionTextSpec] = None,
-                 dim: int = 384,
-                 model_id: str = "sentence-transformers/all-MiniLM-L6-v2",
+                 dim: int = 768,
+                 model_id: str = "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
                  revision: Optional[str] = None,
                  pooling: str = "mean",
                  l2_normalise: bool = True,
@@ -740,11 +740,11 @@ class ConditionConfig:
     gradient norms on `model.codes` first and holding alpha_delta <= 1.2.
     """
 
-    cond_text_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    cond_text_model: str = "cambridgeltl/SapBERT-from-PubMedBERT-fulltext"
     cond_text_revision: Optional[str] = None       # REQUIRED for a real run
     cond_text_fields: Tuple[str, ...] = DEFAULT_TEXT_FIELDS
     cond_text_level: int = 1
-    cond_d_lm: int = 384
+    cond_d_lm: int = 768
     cond_d_dna: int = 768
     cond_d_ctx: int = 224                          # = trunk_dim
     cond_heads: int = 8
