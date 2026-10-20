@@ -630,7 +630,7 @@ class FlankEmbeddingCache:
 
 
 def default_channels(taxonomy_dim: int, species_dim: int = 32,
-                     text_dim: int = 384, dna_dim: int = 768,
+                     text_dim: int = 768, dna_dim: int = 768,
                      text_available: bool = False,
                      dna_available: bool = False) -> ChannelSet:
     """The four channels with the dropouts this project measured.
