@@ -12,13 +12,36 @@ what the condition is biologically, followed by the most frequent real
 `condition` strings recorded for it. A description that is only the category
 name would teach the model a one-hot with extra steps.
 
-The encoder is sentence-transformers/all-MiniLM-L6-v2, mean-pooled over tokens
-with the attention mask and L2-normalised, run through plain `transformers`;
-384 dimensions, matching `conditioning.experiment_text.dim` in the config.
+THE ENCODER IS SapBERT, AND THE RECIPE IS PART OF THE CONTRACT
+--------------------------------------------------------------
+`cambridgeltl/SapBERT-from-PubMedBERT-fulltext` at a pinned revision, run
+through plain `transformers`: masked mean pooling over tokens, then the mean
+of the seven vectors is subtracted and the result is L2-normalised. 768
+dimensions, matching `conditioning.experiment_text.dim` in the config.
 
-Falsifier: the seven vectors must not be interchangeable. Every pairwise
-cosine near 1.0 means the encoder returned seven copies of one vector and the
-channel carries nothing, exactly like the hash backend it replaces.
+This script used to default to `sentence-transformers/all-MiniLM-L6-v2` at
+384 dimensions. That was never the encoder the delivered model was built
+with, and rebuilding the cache with it produced a 384-wide file that
+`config/default.yaml` refuses at construction, because `text_proj` is
+`Linear(768, 224)`. The shipped artefact records the truth in its own
+`backend` field: "cambridgeltl/SapBERT-from-PubMedBERT-fulltext [mean
+centred]".
+
+THE CENTRING IS MEASURED, NOT PREFERRED
+---------------------------------------
+Raw SapBERT is anisotropic. Mean-pooled, the seven descriptions sit at a mean
+cosine of 0.7153 and a maximum of 0.8713, which is seven nearly
+interchangeable vectors. After subtracting the mean and renormalising the
+maximum off-diagonal cosine is 0.2135, and the closest pair is
+`biotic antagonism` with `plant association`, which is the one pair a
+biologist would predict. Both numbers are reproduced by this script against
+the shipped `data/category_text_emb.npz`.
+
+Falsifier, fixed before the measurement: the seven vectors must not be
+interchangeable. The rule is lowest maximum off-diagonal cosine, and refuse
+the encoder entirely above 0.95. Every pairwise cosine near 1.0 means the
+encoder returned seven copies of one vector and the channel carries nothing,
+exactly like the hash backend it replaces.
 """
 from __future__ import annotations
 
@@ -37,7 +60,20 @@ SAMPLES = os.environ.get("HYPPE_SAMPLES",
                          os.path.join(_ROOT, "data", "samples_metadata.tsv"))
 OUT = os.environ.get("HYPPE_TEXT_EMB_OUT",
                      os.path.join(_ROOT, "data", "category_text_emb.npz"))
-MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+MODEL = os.environ.get("HYPPE_TEXT_MODEL",
+                       "cambridgeltl/SapBERT-from-PubMedBERT-fulltext")
+
+#: Pinned so a rebuild is reproducible. The hash is the one recorded in
+#: `data/condition_proto_emb.npz`, which was built from the same encoder.
+#: Override only if the hub moves the weights.
+REVISION = os.environ.get("HYPPE_TEXT_REVISION",
+                          "090663c3ae57bf35ffe4d0d468a2a88d03051a4d")
+
+#: `conditioning.experiment_text.dim` in config/default.yaml.
+EXPECT_DIM = 768
+
+#: Written into the artefact, and the only place that says what built it.
+BACKEND = "%s [mean centred]" % MODEL
 
 # What the condition is, in the language a biologist would use: that is what
 # an LLM embedding generalises from, so a new experiment type is added by
@@ -118,35 +154,55 @@ def main():
         print("\n[%s]  %d distinct conditions in corpus" % (c, len(by_cat.get(c, ()))))
         print("   %s" % (texts[-1][:190] + ("..." if len(texts[-1]) > 190 else "")))
 
-    tok = AutoTokenizer.from_pretrained(MODEL)
-    mdl = AutoModel.from_pretrained(MODEL).eval()
+    tok = AutoTokenizer.from_pretrained(MODEL, revision=REVISION)
+    mdl = AutoModel.from_pretrained(MODEL, revision=REVISION).eval()
     with torch.no_grad():
         enc = tok(texts, padding=True, truncation=True, max_length=256,
                   return_tensors="pt")
         out = mdl(**enc)
         v = mean_pool(out.last_hidden_state, enc["attention_mask"])
-        v = torch.nn.functional.normalize(v, p=2, dim=1)
+        raw = torch.nn.functional.normalize(v, p=2, dim=1)
+        # Centre, then renormalise. Without this the seven sit at max cosine
+        # 0.8713 and are nearly interchangeable; see the module docstring.
+        v = torch.nn.functional.normalize(v - v.mean(0, keepdim=True),
+                                          p=2, dim=1)
     V = v.numpy().astype("float32")
-    print("\nvectors: %s  (dim must be 384 to match the config)" % (V.shape,))
+    R = raw.numpy().astype("float64")
+    print("\nvectors: %s  (dim must be %d to match the config)"
+          % (V.shape, EXPECT_DIM))
+    if V.shape[1] != EXPECT_DIM:
+        raise SystemExit(
+            "ABORT: %s gives %d dims, but conditioning.experiment_text.dim is "
+            "%d. text_proj is Linear(%d, 224), so this artefact would raise at "
+            "construction rather than train." % (MODEL, V.shape[1],
+                                                 EXPECT_DIM, EXPECT_DIM))
+
+    off_raw = (R @ R.T)[~np.eye(len(cats), dtype=bool)]
+    print("before centring: mean %.4f | max %.4f   (recorded 0.7153 / 0.8713)"
+          % (off_raw.mean(), off_raw.max()))
 
     # Seven near-identical vectors would be the hash backend in a new costume:
-    # a channel that trains, reports a share of the context, and carries
-    # nothing.
+    # a channel that trains, reports a share of the context, and carries nothing.
     S = V @ V.T
     off = S[~np.eye(len(cats), dtype=bool)]
-    print("\npairwise cosine: min %.4f | mean %.4f | max %.4f"
-          % (off.min(), off.mean(), off.max()))
+    print("\nafter centring:  min %.4f | mean %.4f | max %.4f"
+          "   (recorded max 0.2135)" % (off.min(), off.mean(), off.max()))
     print("  (max near 1.0 would mean the encoder returned seven copies)")
     print("\n      %s" % " ".join("%6s" % c[:6] for c in cats))
     for i, c in enumerate(cats):
         print("  %-6s %s" % (c[:6], " ".join("%6.3f" % S[i, j]
                                              for j in range(len(cats)))))
-    if off.max() > 0.99:
-        raise SystemExit("ABORT: two descriptions are indistinguishable")
+    # The recorded selection rule: refuse the encoder entirely above 0.95.
+    if off.max() > 0.95:
+        raise SystemExit(
+            "ABORT: maximum off-diagonal cosine %.4f exceeds 0.95, so these "
+            "descriptions are interchangeable and the channel would report a "
+            "share of the context while carrying nothing." % off.max())
 
     np.savez(OUT, categories=np.array(cats, dtype=object),
              vectors=V, texts=np.array(texts, dtype=object),
-             backend=np.array(MODEL))
+             backend=np.array(BACKEND),
+             model_id=np.array(MODEL), revision=np.array(REVISION))
     print("\nwritten %s" % OUT)
     return 0
 
